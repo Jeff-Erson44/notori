@@ -358,6 +358,77 @@ li{
     }
 }
 
+
+/********** POURQUOI **********/
+#pourquoi{
+    height: 80vh;
+    max-width: 100%;
+    padding: 20px 100px 0px 100px;
+}
+.pourquoi__container{
+    display: flex;
+    height: 80vh;
+    min-width: 50%;
+    margin-top: 50px;
+}
+#pourquoi h2{
+    font-family: 'Nexa-Bold';
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+.pourquoi__container p{
+    font-family: 'Open Sans';
+    font-size: 1.375rem;
+}
+.pourquoi__container--left{
+    margin: auto;
+    padding: 0 8%;
+}
+.pourquoi__container--right{
+    display: flex;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.pourquoi__container--text{
+    margin-bottom: 20px;
+}
+.pourquoi__container--img{
+    display: flex;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:560px){
+    #pourquoi{
+        padding: 20px 40px 0px 40px;
+        height: 115vh;
+    }
+    #pourquoi h2{
+        font-size: 1.25rem;
+        margin: 0!important;
+    }
+    .pourquoi__container--img{
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .pourquoi__container{
+        flex-wrap: wrap;
+    }
+    .pourquoi__container--text{
+        font-size: 1.05rem;
+        margin-bottom: 40px;
+    }
+    .pourquoi__container--left {
+        margin: 10px;
+        padding: 0;
+    }
+}
+
+
 /********** COUNTER ***********/
 
 .counter__container{
