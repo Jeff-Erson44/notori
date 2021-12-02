@@ -6,6 +6,8 @@
 
 <?php require_once('public/includes/apropos.php')?>
 
+<?php require_once('public/includes/pourquoi.php')?>
+
 <?php require_once('public/includes/counter.php')?>
 <?php require_once('public/includes/faq.php')?>
 <?php require_once('public/includes/footer.php')?>
