@@ -1,5 +1,5 @@
 <section id="pourquoi">
-    <h2>Pourquoi imminence</h2>
+    <h2 class="subtitle">Pourquoi imminence</h2>
     <div class="pourquoi__container">
         <div class="pourquoi__container--left">
             <p class="pourquoi__container--text">

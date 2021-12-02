@@ -48,7 +48,7 @@ a, li{
     z-index: 3;
     top: 0;
     left: 0;
-    height: 8rem;
+    height: 6rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -396,7 +396,7 @@ li{
 
 /********** POURQUOI **********/
 #pourquoi{
-    height: 80vh;
+    height: 70vh;
     max-width: 100%;
     padding: 20px 100px 0px 100px;
 }
@@ -404,27 +404,20 @@ li{
     display: flex;
     height: 80vh;
     min-width: 50%;
-    margin-top: 50px;
-}
-#pourquoi h2{
-    font-family: 'Nexa-Bold';
-    font-size: 2rem;
-    color: black;
-    text-align: center;
 }
 .pourquoi__container p{
     font-family: 'Open Sans';
     font-size: 1.375rem;
 }
 .pourquoi__container--left{
-    margin: auto;
     padding: 0 8%;
+    margin: 50px auto;
 }
 .pourquoi__container--right{
     display: flex;
     min-width: 50%;
     justify-content: center;
-    align-items: center;
+    margin: 50px auto;
 }
 .pourquoi__container--text{
     margin-bottom: 20px;
@@ -501,10 +494,6 @@ li{
         text-align: center;
     }
 }
-
-
-
-
 
 
 /********** FAQ ***********/
@@ -626,6 +615,68 @@ svg{
 }
 
 
+/********** NEWSLETTER *********/
+#newsletter{
+    width: 100%;
+    height: 30vh;
+    margin-top: 10rem;
+}
+.newsletter__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter__container--btn{
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.125rem;
+}
+.fa-long-arrow-alt-right{
+    margin-left: 10px;
+}
+.newsletter__container--input{
+    border: none;
+    border-bottom: 2px solid black;
+    height: 3rem;
+    width: 730px;
+    margin-right: 57px;
+
+}
+.newsletter__container--title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 57px;
+}
+@media(max-width: 560px){
+    .newsletter__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter__container--input{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    #newsletter{
+        margin-top: 3rem;
+        margin-bottom: 100px;
+    }
+    .newsletter__container--btn{
+        margin-left: 130px;
+    }
+    .newsletter__container--title p{
+        text-align: center;
+    }
+
+    
+}
+
 /********** FOOTER ***********/
 .footer__contain{
 	width: 100%;
@@ -674,7 +725,6 @@ svg{
 .adress__text:last-child{
     margin-bottom: 35px;
 }
-
 
 @media (max-width: 650px){
     .footer__contain{
