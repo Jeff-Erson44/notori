@@ -31,7 +31,8 @@
         </div>
         <div class="container_adress--mail">
             <h5 class="footer__container--title">Contact</h5>
-                <p class="mail__text">7xxxxx@xxxgmail.com</p>
+                <p class="mail__text" mailto="">7xxxxx@xxxgmail.com</p>
         </div>
     </div>
-</div>
+
+
