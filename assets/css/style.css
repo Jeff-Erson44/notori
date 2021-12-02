@@ -26,6 +26,9 @@
     text-align: center;
     font-size: 2rem;
 }
+.highlight{
+    color: var(--secondary);
+}
 @media (max-width:560px){
     .subtitle{
         font-size: 1.25rem;
@@ -145,7 +148,39 @@ button{
     }
 }
 
-
+/********** CITATION ***********/
+#citation{
+    padding: 0 100px;
+    margin: 150px 0;
+}
+.citation__container{
+    width: 100%;
+}
+.citation__contain{
+    background-image: url("../img/citation.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 18rem;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.author, .citation{
+    color: white;
+    font-family: 'Open Sans';
+}
+.citation{
+    font-size: 2.25rem;
+    text-align: center;
+    align-items: center;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.8rem;
+}
 
 
 
@@ -434,6 +469,8 @@ li{
 .counter__container{
     display: flex;
     padding: 0 5%;
+    justify-content: center;
+    align-items: center;
 }
 .counter__container--text{
     width: 150px;

@@ -3,8 +3,7 @@
 <?php require_once('public/includes/header.php')?>
 
 <?php require_once('public/includes/home.php')?>
-
-<?php require_once('public/includes/apropos.php')?>
+<?php require_once('public/includes/citation.php')?>
 
 <?php require_once('public/includes/pourquoi.php')?>
 
