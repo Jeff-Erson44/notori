@@ -34,6 +34,6 @@
                 <p class="mail__text" mailto="">7xxxxx@xxxgmail.com</p>
         </div>
     </div>
-
+</div>
     
 
