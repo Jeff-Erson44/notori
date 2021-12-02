@@ -1,5 +1,5 @@
 <section id="apropos">
-    <h2 class="subtitle">Qu'est-ce que Imminence ?</h2>
+    <h2 class="subtitle subtitle__apropos">Qu'est-ce que Imminence ?</h2>
     <div class="apropos__contain">
         <div class="apropos__contain--image">
             <figure>
