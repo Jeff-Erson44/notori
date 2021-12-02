@@ -18,6 +18,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face{
+    font-family: "Nexa-Bold";
+    src: url("../webfonts/nexa_bold-webfont.woff") format("woff"),
+    url("../webfonts/nexa_bold-webfont.woff2") format("woff2");
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Nexa-Light";
+    src: url("../webfonts/nexa_light-webfont.woff") format("woff"),
+    url("../webfonts/nexa_light-webfont.woff2") format("woff2");
+    font-weight: normal;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -40,4 +56,37 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+/* NAVBAR */
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+	color: var(--black)!important;
+}
+#logo{
+	height: 4rem;
+}
+#navbar{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	background: red;
+	height: 5rem;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	transition: .6s;
+}
+.header__three--links ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.mobile__nav--toggle{
+	display: none;
 }
