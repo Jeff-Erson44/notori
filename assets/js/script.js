@@ -34,6 +34,43 @@ window.addEventListener('load', () => {
         });
     /***************** Fin Animation Toggle FAQ *****************/
 
+
+    /*********     Animation Counter  *******/
+
+const launch = (id)=>{ 
+    console.log(id)
+    const counters = document.querySelector(`#${id}`);
+    const counter = document.querySelector('.counter');
+    counter.innerText = '0';
+
+    const updateCounter = () =>{
+        const target = +counter.getAttribute('data-target');
+        const c = +counter.innerText;
+
+        if(c < target){
+            counter.innerText = c + 1;
+            setTimeout(updateCounter,0.001)
+        }
+    };
+    updateCounter();
+}
+
+const observer =  new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting ) {
+            console.log(entry.target.id)
+            launch(entry.target.id); 
+        }
+    })
+})
+
+let containCounter =  document.querySelectorAll("[data-observe]")
+
+containCounter.forEach((contain) => {
+    observer.observe(contain)
+})
+
+
     /*********     google analytic Tag   *******/
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
