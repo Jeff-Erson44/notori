@@ -205,6 +205,35 @@ button{
 }
 
 
+/********** A PROPOS ***********/
+#apropos{
+    padding: 0 100px;
+}
+
+#apropos h2{
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.apropos__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.apropos__container--video{
+    width: 31.6rem;
+    height: 19rem;
+    background-color: var(--black);
+    border-radius: 10px;
+}
+.apropos__container--text{
+    width: 29rem;
+    height: 18rem;
+    font-family: 'Open Sans';
+    font-size: 1.25rem;
+
+}
+
 /********** NAVBAR ***********/
 #navbar.sticky{
     background:var(--white);
