@@ -182,6 +182,26 @@ button{
     font-size: 1.8rem;
 }
 
+@media (max-width:560px){
+
+    #citation{
+        margin: 0;
+        padding: 0 80px;
+        margin-bottom: 40px;
+    }
+    .citation__contain{
+        background-image: url("../img/citation-mobile.png");
+        background-size: cover;
+        padding: 0px 12px;
+    }
+    .citation{
+        font-size: 1.25rem;
+    }
+    .author{
+        font-size: 1rem;
+    }
+}
+
 
 /********** NAVBAR ***********/
 #navbar.sticky{
