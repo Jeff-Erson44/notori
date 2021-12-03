@@ -183,86 +183,6 @@ button{
 }
 
 
-
-
-
-
-
-
-/********** À PROPOS ***********/
-
-#apropos{
-    padding: 20px 100px 0px 100px;
-}
-
-.subtitle__apropos{
-    margin: 250px 0px -50px 0;
-}
-.apropos__contain{
-    display: flex;
-    height: 80vh;
-    min-width: 50%;
-    margin-top: 50px;
-}
-.apropos__contain--image{
-    display: flex;
-    min-width: 50%;
-    justify-content: center;
-    align-items: center;
-}
-.apropos__contain--image figure:first-child{
-    margin: -50px 20px 0 0;
-}
-.apropos__contain--image figure:last-child{
-    margin-top: 50px;
-}
-
-.apropos__contain--text{
-    margin:auto;
-    padding: 0 8%;
-}
-
-.contain__text--highlight{
-    width: 100%;
-    font-size: 1.375rem;
-    margin-bottom: 20px;
-    font-family: 'Open Sans';
-}
-
-@media (max-width:560px){
-    #apropos{
-        padding: 20px 40px 0px 40px;
-        height: 95vh;
-    }
-    .apropos__contain--image figure:last-child{
-        display: none;
-    }
-    .apropos__contain--image figure:first-child{
-        margin: 0;
-    }
-    .apropos__contain--image{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .apropos__contain{
-        flex-wrap: wrap;
-    }
-    .contain__text--highlight{
-        font-size: 1.05rem;
-        margin-bottom: 40px;
-    }
-    .apropos__contain--text {
-        margin: 10px;
-        padding: 0;
-    }
-}
-@media (max-width:375px){
-    #apropos{
-        height: 100vh;
-        padding: 20px 35px 0px 35px;
-    }
-}
-
 /********** NAVBAR ***********/
 #navbar.sticky{
     background:var(--white);
@@ -428,8 +348,9 @@ li{
 }
 @media (max-width:560px){
     #pourquoi{
-        padding: 20px 40px 0px 40px;
-        height: 115vh;
+        padding: 0;
+        height: 90vh;
+        margin: 0 auto;
     }
     #pourquoi h2{
         font-size: 1.25rem;
@@ -445,18 +366,23 @@ li{
         flex-wrap: wrap;
     }
     .pourquoi__container--text{
-        font-size: 1.05rem;
+        font-size: 1rem;
         margin-bottom: 40px;
     }
     .pourquoi__container--left {
         margin: 10px;
         padding: 0;
     }
+    .pourquoi__container p {
+        font-family: 'Open Sans';
+        font-size: 1.2rem;
+        padding: 0 20px;
+    }
 }
 
 /********** POURQUOI 2 **********/
 #pourquoi2{
-    height: 70vh;
+    height: 60vh;
 }
 
 #pourquoi2 .pourquoi__container{
@@ -470,6 +396,13 @@ li{
 #pourquoi2 .pourquoi__container--left {
     padding: 0 8%;
     margin: 100px 100px 0 auto;
+}
+
+@media (max-width:560px){
+    #pourquoi2 .pourquoi__container--left{
+        padding: 0;
+        margin: 0;
+    }
 }
 
 
@@ -498,6 +431,7 @@ li{
 @media (max-width:560px){
     .counter__container{
         flex-wrap: wrap;
+        margin-top: 100px;
     }
     .counter__container--text{
         justify-content: center;
@@ -717,7 +651,7 @@ svg{
 }
 .footer__container--navigation, .footer__container--social, .footer__container--adress{
     width: 25%;
-    padding: 5% 1% 1% 1%;
+    padding: 3% 1% 1% 1%;
 }
 .footer__container--navigation, .footer__container--social, .footer__container--logo{
     border-right: 1px solid black;
@@ -734,7 +668,7 @@ svg{
 }
 .footer__container--title{
     text-transform: uppercase;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .footer__container--adress{
     width: 30%;
