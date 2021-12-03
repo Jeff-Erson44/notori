@@ -234,6 +234,28 @@ button{
 
 }
 
+@media (max-width:560px){
+    #apropos{
+        padding: 0;
+    }
+    .apropos__container{
+        display: block;
+    }
+    .apropos__container--video{
+        width: 90%;
+        background-color: var(--black);
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .apropos__container--text{
+        width: 100%;
+        font-family: 'Open Sans';
+        font-size: 1.25rem;
+        text-align: left;
+    
+    }
+}
+
 /********** NAVBAR ***********/
 #navbar.sticky{
     background:var(--white);
