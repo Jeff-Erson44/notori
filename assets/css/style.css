@@ -231,9 +231,10 @@ button{
     height: 18rem;
     font-family: 'Open Sans';
     font-size: 1.25rem;
-
 }
-
+.apropos__container--text p:first-child{
+    margin-top: 80px;
+}
 /********** NAVBAR ***********/
 #navbar.sticky{
     background:var(--white);
@@ -365,13 +366,13 @@ li{
 }
 /********** POURQUOI **********/
 #pourquoi{
-    padding: 20px 100px 0px 100px;
+    padding: 100px 100px 0px 100px;
 }
 .pourquoi__contain{
     display: flex;
     height: 80vh;
     min-width: 50%;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .pourquoi__contain--image{
     display: flex;
@@ -427,6 +428,10 @@ li{
         margin: 10px;
         padding: 0;
     }
+
+    .pourquoi__contain:last-child{
+        margin-top: 100px;
+    }
 }
 /********** COUNTER ***********/
 
@@ -452,7 +457,7 @@ li{
 @media (max-width:560px){
     .counter__container{
         flex-wrap: wrap;
-        margin-top: 100px;
+        margin: 50px 0;
     }
     .counter__container--text{
         justify-content: center;
