@@ -108,6 +108,9 @@ button{
     border-radius: 10px;
 }
 @media (max-width: 560px){
+    #home{
+        height: 95vh;
+    }
     #home h1 span{
         font-size: 2.813rem;
         margin-bottom: 1.375rem;
@@ -185,20 +188,19 @@ button{
 @media (max-width:560px){
 
     #citation{
-        margin: 0;
-        padding: 0 80px;
-        margin-bottom: 40px;
+        margin: 0 0 80px 0;
+        padding: 0;
     }
     .citation__contain{
         background-image: url("../img/citation-mobile.png");
-        background-size: cover;
-        padding: 0px 12px;
+        height: 9rem;
+        padding: 0 50px;
     }
     .citation{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     .author{
-        font-size: 1rem;
+        font-size: .7rem;
     }
 }
 
@@ -334,99 +336,69 @@ li{
 }
 /********** POURQUOI **********/
 #pourquoi{
-    height: 70vh;
-    max-width: 100%;
     padding: 20px 100px 0px 100px;
 }
-.pourquoi__container{
+.pourquoi__contain{
     display: flex;
     height: 80vh;
     min-width: 50%;
+    margin-top: 50px;
 }
-.pourquoi__container p{
-    font-family: 'Open Sans';
-    font-size: 1.5rem;
-}
-.pourquoi__container--left{
-    padding: 0 8%;
-    margin: 100px auto 0 auto;
-}
-.pourquoi__container--right{
-    display: flex;
-    min-width: 50%;
-    justify-content: center;
-    margin: 50px auto;
-}
-.pourquoi__container--text{
-    margin-bottom: 20px;
-}
-.pourquoi__container--img{
+.pourquoi__contain--image{
     display: flex;
     min-width: 50%;
     justify-content: center;
     align-items: center;
 }
+.pourquoi__contain--image figure:first-child{
+    margin: -50px 20px 0 0;
+}
+.pourquoi__contain--image figure:last-child{
+    margin-top: 50px;
+}
+
+.pourquoi__contain--text{
+    margin:auto;
+    padding: 0 8%;
+}
+
+.contain__text--highlight{
+    width: 100%;
+    font-size: 1.375rem;
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+}
+.pourquoi__contain:last-child{
+    flex-direction: row-reverse;
+    margin-top: -150px;
+}
+
 @media (max-width:560px){
     #pourquoi{
-        padding: 0;
-        height: 90vh;
-        margin: 0 auto;
+        padding: 20px;
     }
-    #pourquoi h2{
-        font-size: 1.25rem;
-        margin: 0!important;
+    .pourquoi__contain--image figure:last-child{
+        display: none;
     }
-    .pourquoi__container--img{
+    .pourquoi__contain--image figure:first-child{
+        margin: 0;
+    }
+    .pourquoi__contain--image{
         width: 100%;
         margin-bottom: 30px;
-        display: flex;
-        align-items: center;
     }
-    .pourquoi__container{
+    .pourquoi__contain{
         flex-wrap: wrap;
     }
-    .pourquoi__container--text{
-        font-size: 1rem;
+    .contain__text--highlight{
+        font-size: 1.05rem;
         margin-bottom: 40px;
     }
-    .pourquoi__container--left {
+    .pourquoi__contain--text {
         margin: 10px;
         padding: 0;
     }
-    .pourquoi__container p {
-        font-family: 'Open Sans';
-        font-size: 1.2rem;
-        padding: 0 20px;
-    }
 }
-
-/********** POURQUOI 2 **********/
-#pourquoi2{
-    height: 60vh;
-}
-
-#pourquoi2 .pourquoi__container{
-    flex-direction: row-reverse;
-}
-
-#pourquoi2 .pourquoi__container--right{
-    margin: 50px auto 0 auto;
-}
-
-#pourquoi2 .pourquoi__container--left {
-    padding: 0 8%;
-    margin: 100px 100px 0 auto;
-}
-
-@media (max-width:560px){
-    #pourquoi2 .pourquoi__container--left{
-        padding: 0;
-        margin: 0;
-    }
-}
-
-
-
 /********** COUNTER ***********/
 
 .counter__container{
@@ -457,7 +429,7 @@ li{
         justify-content: center;
         font-size:2rem;
         text-align: center;
-        margin: 20px auto;
+        margin: 40px auto -20px;
         padding: 0;
     }
     .counter__text--highlight{
