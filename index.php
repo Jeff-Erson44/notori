@@ -6,6 +6,7 @@
 <?php require_once('public/includes/citation.php')?>
 
 <?php require_once('public/includes/pourquoi.php')?>
+<?php require_once('public/includes/pourquoi2.php')?>
 
 <?php require_once('public/includes/counter.php')?>
 <?php require_once('public/includes/faq.php')?>
