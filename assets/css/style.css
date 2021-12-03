@@ -608,7 +608,7 @@ svg{
         flex-direction: column;
     }
     .newsletter__container--input{
-        width: 300px;
+        width: 250px;
         display: flex;
         align-items: center;
         margin-bottom: 30px;
