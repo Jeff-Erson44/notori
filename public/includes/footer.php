@@ -24,16 +24,13 @@
 
     </div>
     <div class="footer__container--adress">
-        <div class="container_adress--location">
-            <h5 class="footer__container--title">Location</h5>
-                <p class="adress__text">8 bis Rue de la Fontaine au Roi</p>
-                <p class="adress__text">75011 Paris</p>
-        </div>
-        <div class="container_adress--mail">
-            <h5 class="footer__container--title">Contact</h5>
-                <p class="mail__text" mailto="">7xxxxx@xxxgmail.com</p>
-        </div>
+        <h5 class="footer__container--title">Contact</h5>
+            <p class="mail__text" mailto="">7xxxxx@xxxgmail.com</p>
     </div>
 </div>
+<div class="copyright__contain">
+    
+</div>
+
     
 
