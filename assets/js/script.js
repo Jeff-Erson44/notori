@@ -71,6 +71,18 @@ containCounter.forEach((contain) => {
 })
 
 
+    /*********     Slider   *******/
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+            clickable: true
+        }
+    });
+
+
+
+
     /*********     google analytic Tag   *******/
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

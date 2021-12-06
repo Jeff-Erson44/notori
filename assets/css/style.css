@@ -21,19 +21,29 @@
     url("../webfonts/nexa_light-webfont.woff2") format("woff2");
     font-weight: normal;
 }
-.subtitle{
+
+/***********   ECHELLE TYPO ************/
+
+.header2{
     font-family: 'Nexa-Bold';
-    text-align: center;
     font-size: 2rem;
+    padding: 0 100px;
 }
+.paragraphe{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .highlight{
     color: var(--secondary);
 }
 @media (max-width:560px){
-    .subtitle{
+    .header2{
         font-size: 1.25rem;
     }
-    .subtitle__apropos{
+    .header2__apropos{
         margin: 0!important;
     }
 }
@@ -495,6 +505,74 @@ li{
         text-align: center;
     }
 }
+
+
+/********** POUR VOUS ***********/
+
+#pourvous{
+    padding: 50px 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pourvous__container{
+    background: #F9F9F9;
+    width: 18rem;
+    padding: 20px 20px 0 20px;
+    border-radius: 15px;
+    margin-right: 80px;
+    filter: drop-shadow(0px 4px 7px #E3E8ED);  
+}
+.pourvous__contain--stars{
+    display: flex;
+    margin-bottom: 20px;
+}
+.stars{
+    margin: 3px;
+}
+.pourvous__infos--image{
+    margin: 0 20px 0 0;
+}
+.pourvous__contain--text{
+    margin-bottom: 22px;
+    height: 60px;
+}
+.pourvous__contain--infos{
+    display: flex;
+    align-items: center;
+}
+
+/*****/
+/*** CACHER LE SLIDER ***/
+/*****/
+
+#pourvous__mobile{
+    display: none;
+}
+
+@media (max-width : 560px){
+    #pourvous__mobile{
+        display: block;
+        padding: 0 10px;
+    }
+    #pourvous{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********** FAQ ***********/

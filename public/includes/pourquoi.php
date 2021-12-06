@@ -1,5 +1,5 @@
 <section id="pourquoi">
-    <h2 class="subtitle">Pouquoi Imminence ?</h2>
+    <h2 class="header2">Pouquoi Imminence ?</h2>
     <div class="pourquoi__contain">
         <div class="pourquoi__contain--image">
             <figure>

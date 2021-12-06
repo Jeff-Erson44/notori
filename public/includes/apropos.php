@@ -1,5 +1,5 @@
 <section id="apropos">
-    <h2 class="subtitle">Qu'est ce que Imminence</h2>
+    <h2 class="header2">Qu'est ce que Imminence</h2>
     <div class="apropos__container">
         <div class="apropos__container--video">
 
