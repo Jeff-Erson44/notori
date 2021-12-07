@@ -1,14 +1,23 @@
 <section id="home">
     <div class="home__container">
-        <div class="home__container--left">
+        <div class="home__container--top">
             <h1>
-                <span>entreprendre</span>
-                <span>en toute</span>
-                <span>confiance</span>
+                <span class="span__container--entreprendre">entreprendre</span>
+                <p>en toute <span>confiance</span></p>
             </h1>
         </div>
-        <div class="home__container--right">
-            <button class="home__container--button" type="button">en savoir plus</button>
+
+        <p class="paragraphe">Avec les informations plus pertinentes pour vous, ne perdez plus de temps pour vos démarches administratives !</p>
+
+        <div class="home__container--bottom">
+            <button class="home__container--button" type="button">J'entreprends</button>
+            <button class="home__container--button" type="button">Je veux en savoir plus</button>
+        </div>
+
+        <div class="home__social--links">
+            <p class="social__link"><a href="">LinkedIn</a></p>
+            <p class="social__link"><a href="">Facebook</a></p>
+            <p class="social__link"><a href="">Instagram</a></p>
         </div>
     </div>
 </section>

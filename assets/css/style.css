@@ -44,6 +44,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
+    color: #202932;
 }
 
 .highlight{
@@ -65,7 +66,7 @@ a, li{
 }
 
 
-/* NAVBAR */
+/********** NAVBAR *********/
 #navbar{
     position: fixed;
     z-index: 3;
@@ -80,98 +81,180 @@ a, li{
     background: var(--white);
 }
 
+@media (max-width:560px){
+    #navbar{
+        height: 3.75rem;
+    }
+}
+
 /********** HOME ***********/
 
 #home{
-    height: 100vh;
-    width: 100%;
+    max-height: 100vh;
+    max-width: 100%;
+    padding: 350px 100px 0 100px;
 }
-#home h1 span{
-    font-family: "Nexa-Bold";
-    font-size: 8.75rem;
-    margin-bottom: 1.375rem;
-}
-#home h1 span:nth-child(1){
-    margin-left: 6.25rem;
-}
-#home h1 span:nth-child(2){
-    margin-left: 16.563rem;
-}
-#home h1 span:nth-child(3){
-    margin-left: 27rem;
-}
+
 .home__container{
-    display: flex;
+    padding-top: 3.125rem;
+    position: relative;
 }
-.home__container--left{
-    width: 80%;
+
+h1{
+    font-family: "Nexa-Light";
+    font-size: 4rem;
 }
-.home__container--right{
-    width: 20%;
-    display: flex;
-    align-items: center;
+
+h1 span{
+    color: var(--primary);
+    font-family: "Nexa-Bold";
 }
-.home__container--button{
-    margin-top: 200px;
-    margin-left: -5%;
+
+.span__container--entreprendre{
+    position: absolute;
+    z-index: 100;
+    top: 3%;
 }
-#home h1{
-    margin-top: 12rem;
-    display: flex;
-    flex-direction: column;
+
+.span__container--entreprendre::before{
+    content: 'entreprendre';
+    font-family: "Nexa-Bold";
+    font-size: 12rem;
+    line-height: 12rem;
+    color: #F0F4F9;
+    position: absolute;
+    top: -110px;
+    z-index: -10;
 }
-button{
+
+
+h1 p{
+    margin: 0 0 0 1.9rem;
+}
+
+h1 p span{
+    color: var(--secondary);
+}
+
+.home__container .paragraphe{
+    margin-bottom: 2.5rem;
+    margin-top: -1.125rem;
+}
+
+.home__container--bottom button:first-child{
+    height: 3.1rem;
+    width: 18.4rem;
+    margin-right: 20px;
     border: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 1.375rem;
-    background: linear-gradient(45deg, #1A2A80,
-    #26CECD);
-    padding: 15px 25px;
+    background: linear-gradient(90deg, #1A2A80 0%, #26CECD 100%);
     border-radius: 10px;
+    font-size: 1.125rem;
     color: var(--white);
 }
-@media (max-width: 560px){
+
+
+.home__container--bottom button:last-child{
+    height: 3.1rem;
+    width: 18.4rem;
+    border: 0;
+    background: linear-gradient(90deg, #1A2A80 0%, #26CECD 100%);
+    font-size: 1.125rem;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+}
+.home__container--bottom button:last-child::before{
+    content: "";
+    display: block;
+
+    border-radius: calc(10px - 2px);
+    height: calc(100% - calc(2px * 2));
+    width: calc(100% - calc(2px * 2));
+
+    background: white;
+
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: -1;
+}
+
+.home__social--links{
+    display: flex;
+    width: 18rem;
+    height: 1.3rem;
+    transform: rotate(90deg);
+    position: absolute;
+    right: -12%;
+    top: 55%;
+}
+
+.home__social--links a{
+    color: #202932!important;
+}
+
+/**** HOME MOBILE ****/
+
+@media (max-width:560px){
     #home{
-        height: 95vh;
+        max-height: 100vh;
+        max-width: 100%;
+        padding: 150px 20px 0 20px;
+        margin-bottom: 55px;
     }
-    #home h1 span{
-        font-size: 2.813rem;
-        margin-bottom: 1.375rem;
+    .span__container--entreprendre{
+        position: absolute;
+        z-index: 100;
+        top: 3%;
+        font-size: 3rem;
     }
-    #home h1 span:nth-child(1){
-        margin-left: 2.5rem;
+    .span__container--entreprendre::before{
+        content: 'entreprendre';
+        font-family: "Nexa-Bold";
+        font-size: 3.25rem;
+        color: #F0F4F9;
+        position: absolute;
+        top: -5.94rem;
+        z-index: -10;
     }
-    #home h1 span:nth-child(2){
-        margin-left: 5.313rem;
+    h1 p{
+        font-family: "Nexa-Light";
+        font-size: 2.125rem;
+        margin: -2rem 0 0 3.687rem!important;
     }
-    #home h1 span:nth-child(3){
-        margin-left: 8.25rem;
+    h1 p span{
+        color: var(--secondary);
+        font-family: "Nexa-Bold";
+        font-size: 3rem;
+        margin-left: 3.5rem;
     }
-    .home__container--right{
+    .home__container .paragraphe{
+        margin-bottom: 4rem;
+        margin-top: -2.5rem;
+        font-size: 0.875rem;
+        width: 95%;
+    }
+    .home__container--bottom{
         display: flex;
-    }
-    button{
-        font-size: 1.063rem;
-    }
-    .home__container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .home__container--left{
-        width: 100%;
-    }
-    .home__container--right{
-        width: 100%;
-        justify-content: center;
+        flex-direction: column;
     }
     .home__container--button{
-        margin-top: 4rem;
+        width: 217px;
+        height: 45px;
+        margin: 0 auto 8px auto!important;
+        border-radius: 10px;
+        font-size: 1.125rem;
     }
-}
-@media (width: 1024px){
-    #home h1 span{
-        font-size: 6rem;
+    .home__container--bottom button:last-child{
+        margin-bottom: 50px!important;
+    }
+    .home__social--links{
+        display: flex;
+        align-items: center;
+        transform: none;
+        position: static;
+        margin: 0 auto 0 auto!important;
+        text-align: center;
     }
 }
 
