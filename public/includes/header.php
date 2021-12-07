@@ -25,9 +25,9 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a href="#etapes">
+                        <a href="#pourvous">
                             <div class="bg__links--text">
-                                <span class="nav-links">Étapes</span>
+                                <span class="nav-links">Pour Vous</span>
                             </div>
                         </a>
                     </h4>
@@ -46,10 +46,76 @@
             </li>
             <li class="active">
                 <div>
-                    <h4 class="title contact">
-                        <a href="#contact">
+                    <h4 class="title">
+                        <a href="">
                             <div class="bg__links--text">
-                                <span class="nav-links contactlink">Contact</span>
+                                <span class="nav-links">J'entreprends</span>
+                            </div>
+                        </a>
+                    </h4>
+                </div>
+            </li>
+            <li class="active navMobile">
+                <div>
+                    <h4 class="title">
+                        <a href="#">
+                            <div class="bg__links--text">
+                                <span class="nav-links">Facebook</span>
+                            </div>
+                        </a>
+                    </h4>
+                </div>
+            </li>
+            <li class="active navMobile">
+                <div>
+                    <h4 class="title">
+                        <a href="#">
+                            <div class="bg__links--text">
+                                <span class="nav-links">LinkedIn</span>
+                            </div>
+                        </a>
+                    </h4>
+                </div>
+            </li>
+            <li class="active navMobile">
+                <div>
+                    <h4 class="title">
+                        <a href="#">
+                            <div class="bg__links--text">
+                                <span class="nav-links">Instagram</span>
+                            </div>
+                        </a>
+                    </h4>
+                </div>
+            </li>
+            <li class="active navMobile">
+                <div>
+                    <h4 class="title">
+                        <a href="#">
+                            <div class="bg__links--text">
+                                <span class="nav-links">Instagram</span>
+                            </div>
+                        </a>
+                    </h4>
+                </div>
+            </li>
+            <li class="active navMobile">
+                <div>
+                    <h4 class="title">
+                        <a href="#">
+                            <div class="bg__links--text">
+                                <span class="nav-links">Instagram</span>
+                            </div>
+                        </a>
+                    </h4>
+                </div>
+            </li>
+            <li class="active navMobile">
+                <div>
+                    <h4 class="title">
+                        <a href="#">
+                            <div class="bg__links--text">
+                                <span class="nav-links">Instagram</span>
                             </div>
                         </a>
                     </h4>

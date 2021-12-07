@@ -33,7 +33,13 @@
     </div>
 </div>
 <div class="copyright__contain">
-    
+    <span class="header5 txt t1">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
 </div>
 
     
