@@ -332,6 +332,19 @@ h1 p span{
     height: 19rem;
     background-color: var(--black);
     border-radius: 10px;
+    position: relative;
+}
+.apropos__container--video::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -6%;
+    top: -15%;
+    height: inherit;
+    width: inherit;
+    border: 2px solid var(--secondary);
+    z-index: -1;
+    border-radius: 15px;
 }
 .apropos__container--text{
     width: 29rem;
@@ -355,6 +368,10 @@ h1 p span{
         background-color: var(--black);
         border-radius: 10px;
         margin: 0 auto;
+    }
+    .apropos__container--video::before{
+        left: -3%;
+        top: -9%;
     }
     .apropos__container--text{
         width: 100%;
@@ -410,19 +427,26 @@ li{
     display: none;
 }
 
+.navMobile{
+    display: none;
+}
+ul .active:nth-child(4){
+    margin: 0 4.375rem;
+}
 
 @media (max-width: 560px){
+    .navMobile{
+        display: block;
+    }
     .primary-navigation{
         position: fixed;
         z-index: 1;
         inset: 0 0 0 30%;
         flex-direction: column;
-        padding: min(25vh, 18rem) 2em;
-        background: white;
-        backdrop-filter: blur(2rem);
+        padding: min(2vh, 18rem) 2em;
+        background: rgb(18, 218, 191);
         transform: translateX(100%);
         transition: transform 400ms ease-out;
-        height: 60vh;
     }
 
     a.link{
@@ -439,6 +463,7 @@ li{
     }
 
     .primary-navigation[data-visible="true"]{
+        margin: 0;
         transform: translateX(0%);
     }
 
@@ -509,6 +534,19 @@ li{
     min-width: 50%;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.img1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -6%;
+    top: -15%;
+    height: 200px;
+    width: 400px;
+    border: 2px solid var(--secondary);
+    z-index: -1;
+    border-radius: 15px;
 }
 .pourquoi__contain--image figure:first-child{
     margin: -50px 20px 0 0;
@@ -759,8 +797,6 @@ li{
         width: 600px;
     }
 }
-
-
 /********** NEWSLETTER *********/
 #newsletter{
     width: 100%;
@@ -862,8 +898,31 @@ li{
     width: 30%;
 }
 .copyright__contain{
-    background: black ;
-    height: 30px;
+    background-color: #202932;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 3vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.txt {
+    margin-right: 110px;
+    white-space: nowrap;
+    font-size: 1rem;
+    animation: scrollTxt 20s linear infinite alternate;
+}
+
+@keyframes scrollTxt {
+    0%{
+        transform: translate(-100%, 0);
+    }
+    100% {
+        transform: translate(0%, 0);
+    }
 }
 
 
