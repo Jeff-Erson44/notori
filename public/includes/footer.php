@@ -1,14 +1,14 @@
 <div class="footer__contain">
     <div class="footer__container--logo">
         <figure>
-            <img class="logo__footer" src="assets/img/logo_black.svg" alt="logo imminence noir et blanc">
+            <img class="logo__footer" src="assets/img/logo-imminence-white.svg" alt="logo imminence noir et blanc">
         </figure>
-        <p class="container__logo--text header5 ">
-        Informations, aides, démarches à suivre, actualités, communauté, forum, événements, formations...<br>Tout ce qui vous concernent et qui vous correspondent, regroupé au même endroit !
+        <p class="container__logo--text header5">
+        Informations, aides, démarches à suivre,<br> actualités, communauté, forum <br> événements, formations...<br>Tout ce qui vous concernent et qui vous <br> correspondent, regroupé au même <br> endroit !
         </p>
     </div>
     <div class="footer__container--navigation">
-        <h5 class="footer__container--title">navigation</h5>
+        <h4 class="footer__container--title header4">navigation</h4>
         <div class="footer__navigation--link">
             <p class="navigation__link"><a href="">Accueil</a></p>
             <p class="navigation__link"><a href="">À propos</a></p>
@@ -19,7 +19,7 @@
     </div>
 
     <div class="footer__container--social">
-        <h5 class="footer__container--title">social</h5>
+        <h4 class="footer__container--title header4">social</h4>
         <div class="footer__social--link">
             <p class="social__link"><a href="">LinkedIn</p></a>
             <p class="social__link"><a href="">Facebook</p></a>
@@ -28,7 +28,7 @@
     </div>
 
     <div class="footer__container--adress">
-        <h5 class="footer__container--title">Contact</h5>
+        <h4 class="footer__container--title header4">Contact</h4>
             <a class="mail__text" href="mailto=contact@imminence.com">contact@imminence.com</a>
     </div>
 </div>
