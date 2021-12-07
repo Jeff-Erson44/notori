@@ -157,6 +157,9 @@
                         <figure class="stars">
                             <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
                         </figure>  
+                        <figure class="stars">
+                            <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
+                        </figure>  
                     </div>
 
                     <div class="pourvous__contain--text">
@@ -188,6 +191,9 @@
                         <figure class="stars">
                             <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
                         </figure>
+                        <figure class="stars">
+                            <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
+                        </figure>  
                         <figure class="stars">
                             <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
                         </figure>  

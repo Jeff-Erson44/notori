@@ -10,8 +10,8 @@
         <p class="paragraphe">Avec les informations plus pertinentes pour vous, ne perdez plus de temps pour vos démarches administratives !</p>
 
         <div class="home__container--bottom">
-            <button class="home__container--button" type="button">J'entreprends</button>
-            <button class="home__container--button" type="button">Je veux en savoir plus</button>
+            <button class="button__primary" type="button">J'entreprends</button>
+            <button class="button__secondary stylebutton" type="button">Je veux en savoir plus</button>
         </div>
 
         <div class="home__social--links">

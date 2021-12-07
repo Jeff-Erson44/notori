@@ -4,10 +4,15 @@
 
     --primary : #1A2A80;
     --secondary : #26CECD;
+    --terce : #ED4465;
+
+    --footer : #202932;
+    --grey : #E3E8ED
 }
 
 
 /* FONTS */
+
 
 @font-face{
     font-family: "Nexa-Bold";
@@ -23,23 +28,32 @@
 }
 
 /***********   ECHELLE TYPO ************/
-
+.header1{
+    font-family: 'Nexa-Bold';
+    font-size: 6rem;
+}
 .header2{
     font-family: 'Nexa-Bold';
     font-size: 2rem;
     padding: 0 100px;
 }
+.header3{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: normal;
+}
 .header4{
-    font-family: 'Poppins-Semi-Bold';
+    font-family: 'Poppins';
     font-size: 1rem;
+    font-weight:600;
 }
 .header5{
     font-family: 'Poppins';
     font-size: 0.8rem;
+    font-weight:400 ;
 }
-
 .paragraphe{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -140,7 +154,7 @@ h1 p span{
     margin-top: -1.125rem;
 }
 
-.home__container--bottom button:first-child{
+.button__primary{
     height: 3.1rem;
     width: 18.4rem;
     margin-right: 20px;
@@ -152,7 +166,7 @@ h1 p span{
 }
 
 
-.home__container--bottom button:last-child{
+.button__secondary{
     height: 3.1rem;
     width: 18.4rem;
     border: 0;
@@ -162,16 +176,13 @@ h1 p span{
     border-radius: 10px;
     z-index: 1;
 }
-.home__container--bottom button:last-child::before{
+.button__secondary::before{
     content: "";
     display: block;
-
     border-radius: calc(10px - 2px);
     height: calc(100% - calc(2px * 2));
     width: calc(100% - calc(2px * 2));
-
     background: white;
-
     position: absolute;
     top: 2px;
     left: 2px;
@@ -237,15 +248,17 @@ h1 p span{
         display: flex;
         flex-direction: column;
     }
-    .home__container--button{
+    .button__primary{
         width: 217px;
         height: 45px;
         margin: 0 auto 8px auto!important;
         border-radius: 10px;
         font-size: 1.125rem;
     }
-    .home__container--bottom button:last-child{
-        margin-bottom: 50px!important;
+    .button__secondary{
+        font-size: 1.125rem;
+        margin: 0 auto 50px auto!important;
+        width: 217px;
     }
     .home__social--links{
         display: flex;
@@ -370,7 +383,7 @@ h1 p span{
         height: 11rem;
         background-color: var(--black);
         border-radius: 10px;
-        margin: 0 45px;
+        margin: 0 40px;
     }
     .apropos__container--video::before{
         left: -6%;
@@ -643,7 +656,7 @@ ul .active:nth-child(4){
 /********** POUR VOUS ***********/
 
 #pourvous{
-    padding: 50px 100px;
+    padding: 100px;
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -684,7 +697,7 @@ ul .active:nth-child(4){
 @media (max-width : 560px){
     #pourvous__mobile{
         display: block;
-        padding: 0 10px;
+        padding: 0 25px;
     }
     #pourvous{
         display: none;
@@ -707,7 +720,10 @@ ul .active:nth-child(4){
 
 /********** FAQ ***********/
 /********** FAQ ***********/
-#faq h2{
+#faq__mobile{
+    display: none;
+}
+.faq__title{
         font-family: 'Nexa-Bold';
         font-size: 2rem;
         padding: 0 100px;
@@ -792,8 +808,22 @@ ul .active:nth-child(4){
     margin-top: 150px;
 }
 @media(max-width: 560px){
+    #faq{
+        display: none;
+    }
+    #faq__mobile{
+        display: block;
+    }
+    #faq__mobile .faq__card{
+        margin-left: 50px;
+    }
     .faq__container--card{
         width: 600px;
+    }
+    .faq__title{
+        font-size: 1rem;
+        margin-top: 100px;
+        margin-bottom: -50px;
     }
 }
 /********** NEWSLETTER *********/
@@ -805,22 +835,29 @@ ul .active:nth-child(4){
 #newsletter h2{
     font-family: 'Nexa-Bold';
     font-size: 2rem;
-    padding: 0;
+    margin-bottom: 2.5rem;
 }
 .newsletter__container--title{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
+    color:#202932;
 
 }
 .newsletter__container{
     padding: 100px;
 }
+.newsletter__container--form .button__primary{
+    max-width: fit-content;
+    padding: 0.5rem 3rem;
+}
 .newsletter__container--input{
-    height: 50px;
-    width: 505px;
+    height: 3.125rem;
+    width: 31.75rem;
     border-radius: 10px;
     border: 1px solid #B7B7B7;
-    margin-right: 20px;
+    color: #A8AEB5;
+    margin-right: 1.06rem;
+    padding: 0 1rem;
 }
 @media(max-width: 560px){
     #newsletter{
@@ -830,7 +867,7 @@ ul .active:nth-child(4){
         padding: 20px;
     }
     .newsletter__container--input{
-        width: 100%;
+        width: 90%;
         margin: auto;        
         margin-bottom: 20px;
     }
@@ -839,8 +876,8 @@ ul .active:nth-child(4){
         justify-content: center;
         align-items: center;
     }
-    .newsletter__container--btn{
-        width: 100%;
+    .newsletter__container--form .button__primary{
+        min-width: 100%;
     }
 }
 /********** FOOTER ***********/
@@ -849,8 +886,8 @@ ul .active:nth-child(4){
 	width: 100%;
 	height: 20rem;
     display: flex;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
 }
 .footer__container--logo{   
     width: 35%;
@@ -867,14 +904,14 @@ ul .active:nth-child(4){
     padding: 0px 80px;
     text-align: center;
     line-height: 21px;
-    color: white;
+    color: var(--white);
 }
 .footer__container--navigation, .footer__container--social{
     width: 20%;
     padding:4%;
 }
 .footer__container--navigation, .footer__container--social, .footer__container--logo{
-    border-right: 2px solid white;
+    border-right: 2px solid var(--white);
 }
 .navigation__link, .social__link{
     width: 50%;
@@ -882,14 +919,14 @@ ul .active:nth-child(4){
     text-decoration: none;
 }
 .navigation__link a, .social__link a{
-    color: white;
+    color: var(--white);
 }
 .footer__container--title{
     text-transform: uppercase;
-    color: white;
+    color: var(--white);
 }
 .mail__text{
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
 .footer__container--adress{
@@ -897,12 +934,12 @@ ul .active:nth-child(4){
     width: 30%;
 }
 .copyright__contain{
-    background-color: #202932;
+    background-color: var(--footer);
     overflow: hidden;
     width: 100%;
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--white);
     height: 3vh;
     position: relative;
     top: 0;
@@ -947,12 +984,13 @@ ul .active:nth-child(4){
 
     .footer__container--logo,.footer__container--adress{
         width: 100%;
-        border-top: 2px solid white;
+        border-top: 2px solid var(--white);
     }
     .footer__container--navigation, .footer__container--social{
         display: block;
         width: 30%;
         padding: 5%;
+        border-top: 2px solid var(--white);
     }
     .footer__container--navigation, .footer__container--social, .footer__container--logo, .footer__container--adress{
         border-right: none;
