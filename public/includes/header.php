@@ -10,7 +10,7 @@
                 <span class="sr-only"></span>
         </button>
 
-        <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation"> Navigation
             <li class="active">
                 <div>
                     <h4 class="title">
@@ -27,7 +27,7 @@
                     <h4 class="title">
                         <a href="#etapes">
                             <div class="bg__links--text">
-                                <span class="nav-links">Étapes</span>
+                                <span class="nav-links">Pour Vous</span>
                             </div>
                         </a>
                     </h4>
@@ -39,17 +39,6 @@
                         <a href="#faq">
                             <div class="bg__links--text">
                                 <span class="nav-links">FAQ</span>
-                            </div>
-                        </a>
-                    </h4>
-                </div>
-            </li>
-            <li class="active">
-                <div>
-                    <h4 class="title contact">
-                        <a href="#contact">
-                            <div class="bg__links--text">
-                                <span class="nav-links contactlink">Contact</span>
                             </div>
                         </a>
                     </h4>
