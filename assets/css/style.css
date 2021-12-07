@@ -141,7 +141,7 @@ h1 p span{
     margin-top: -1.125rem;
 }
 
-.home__container--bottom button:first-child{
+.button__primary{
     height: 3.1rem;
     width: 18.4rem;
     margin-right: 20px;
@@ -153,7 +153,7 @@ h1 p span{
 }
 
 
-.home__container--bottom button:last-child{
+.button__secondary{
     height: 3.1rem;
     width: 18.4rem;
     border: 0;
@@ -163,16 +163,13 @@ h1 p span{
     border-radius: 10px;
     z-index: 1;
 }
-.home__container--bottom button:last-child::before{
+.button__secondary::before{
     content: "";
     display: block;
-
     border-radius: calc(10px - 2px);
     height: calc(100% - calc(2px * 2));
     width: calc(100% - calc(2px * 2));
-
     background: white;
-
     position: absolute;
     top: 2px;
     left: 2px;
@@ -238,15 +235,17 @@ h1 p span{
         display: flex;
         flex-direction: column;
     }
-    .home__container--button{
+    .button__primary{
         width: 217px;
         height: 45px;
         margin: 0 auto 8px auto!important;
         border-radius: 10px;
         font-size: 1.125rem;
     }
-    .home__container--bottom button:last-child{
-        margin-bottom: 50px!important;
+    .button__secondary{
+        font-size: 1.125rem;
+        margin: 0 auto 50px auto!important;
+        width: 217px;
     }
     .home__social--links{
         display: flex;
@@ -806,22 +805,29 @@ ul .active:nth-child(4){
 #newsletter h2{
     font-family: 'Nexa-Bold';
     font-size: 2rem;
-    padding: 0;
+    margin-bottom: 2.5rem;
 }
 .newsletter__container--title{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    color:#202932;
 
 }
 .newsletter__container{
     padding: 100px;
 }
+.newsletter__container--form .button__primary{
+    max-width: fit-content;
+    padding: 0.5rem 3rem;
+}
 .newsletter__container--input{
-    height: 50px;
-    width: 505px;
+    height: 3.125rem;
+    width: 31.75rem;
     border-radius: 10px;
     border: 1px solid #B7B7B7;
-    margin-right: 20px;
+    color: #A8AEB5;
+    margin-right: 1.06rem;
+    padding: 0 1rem;
 }
 @media(max-width: 560px){
     #newsletter{
@@ -831,7 +837,7 @@ ul .active:nth-child(4){
         padding: 20px;
     }
     .newsletter__container--input{
-        width: 100%;
+        width: 90%;
         margin: auto;        
         margin-bottom: 20px;
     }
@@ -840,8 +846,8 @@ ul .active:nth-child(4){
         justify-content: center;
         align-items: center;
     }
-    .newsletter__container--btn{
-        width: 100%;
+    .newsletter__container--form .button__primary{
+        min-width: 100%;
     }
 }
 /********** FOOTER ***********/
