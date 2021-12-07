@@ -249,6 +249,19 @@ button{
     height: 19rem;
     background-color: var(--black);
     border-radius: 10px;
+    position: relative;
+}
+.apropos__container--video::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -6%;
+    top: -15%;
+    height: inherit;
+    width: inherit;
+    border: 2px solid var(--secondary);
+    z-index: -1;
+    border-radius: 15px;
 }
 .apropos__container--text{
     width: 29rem;
@@ -272,6 +285,10 @@ button{
         background-color: var(--black);
         border-radius: 10px;
         margin: 0 auto;
+    }
+    .apropos__container--video::before{
+        left: -3%;
+        top: -9%;
     }
     .apropos__container--text{
         width: 100%;
@@ -426,6 +443,19 @@ li{
     min-width: 50%;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.img1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -6%;
+    top: -15%;
+    height: 200px;
+    width: 400px;
+    border: 2px solid var(--secondary);
+    z-index: -1;
+    border-radius: 15px;
 }
 .pourquoi__contain--image figure:first-child{
     margin: -50px 20px 0 0;

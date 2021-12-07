@@ -22,7 +22,7 @@
     <div class="pourquoi__contain">
         <div class="pourquoi__contain--image">
             <figure>
-                <img src="assets/img/illu.png" alt="#######">
+                <img class="img1" src="assets/img/illu.png" alt="#######">
             </figure>
             <figure>
                 <img src="assets/img/illu.png" alt="#######">
