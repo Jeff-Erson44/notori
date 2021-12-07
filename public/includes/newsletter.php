@@ -1,12 +1,13 @@
 <div id="newsletter">
     <div class="newsletter__container">
         <div class="newsletter__container--title">
-            <p>newsletter</p>
+            <h2>Newsletter</h2>
+            <p>Tenez-nous au courant des dernières nouvelles :</p>
         </div>
         <div class="newsletter__container--form">
             <form action="#" method="POST">
-                <input type="text" name="email" class="newsletter__container--input" placeholder="votre email">
-                <button type="submit" class="newsletter__container--btn">s'inscrire<i class="fas fa-long-arrow-alt-right"></i></button>
+                <input type="text" name="email" class="newsletter__container--input" placeholder="Je saisie mon adresse email">
+                <button type="submit" class="newsletter__container--btn">Je m'inscris</button>
             </form>
         </div>
     </div>
