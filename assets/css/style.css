@@ -80,7 +80,6 @@ a, li{
     transition: 0.6s;
     background: var(--white);
 }
-
 @media (max-width:560px){
     #navbar{
         height: 3.75rem;
