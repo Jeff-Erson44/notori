@@ -708,7 +708,10 @@ ul .active:nth-child(4){
 
 /********** FAQ ***********/
 /********** FAQ ***********/
-#faq h2{
+#faq__mobile{
+    display: none;
+}
+.faq__title{
         font-family: 'Nexa-Bold';
         font-size: 2rem;
         padding: 0 100px;
@@ -793,8 +796,22 @@ ul .active:nth-child(4){
     margin-top: 150px;
 }
 @media(max-width: 560px){
+    #faq{
+        display: none;
+    }
+    #faq__mobile{
+        display: block;
+    }
+    #faq__mobile .faq__card{
+        margin-left: 50px;
+    }
     .faq__container--card{
         width: 600px;
+    }
+    .faq__title{
+        font-size: 1rem;
+        margin-top: 100px;
+        margin-bottom: -50px;
     }
 }
 /********** NEWSLETTER *********/
