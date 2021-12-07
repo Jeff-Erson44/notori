@@ -7,7 +7,7 @@
         <div class="newsletter__container--form">
             <form action="#" method="POST">
                 <input type="text" name="email" class="newsletter__container--input" placeholder="Je saisie mon adresse email">
-                <button type="submit" class="newsletter__container--btn">Je m'inscris</button>
+                <button type="submit" class="button__primary">Je m'inscris</button>
             </form>
         </div>
     </div>
