@@ -1,4 +1,4 @@
-<h2 class="faq__title">F.A.Q: Comment imminence vous aide ?</h2>
+<h2 class="faq__title">F.A.Q : <br class="faq__title--break">Comment <span>imminence</span> vous <span>aide</span> ?</h2>
 <section id="faq">
     <div class="faq__container">
         <div class="faq__container--card">
@@ -46,6 +46,7 @@
             </div>
         </div>   
     </div>
+    <p class="faq__background--text">imminence</p>
 </section>
 <!-- Version mobile -->
 <section id="faq__mobile">
@@ -108,6 +109,7 @@
         </div>
         <div class="swiper-pagination"></div>
     </div>
+    <p class="faq__background--text">imminence</p>
 </section>
 
 

@@ -1,7 +1,7 @@
 <section id="pourquoi">
     <div class="pourquoi__contain">
         <div class="pourquoi__contain--text">
-            <h2 class="header2">Pouquoi <span>imminence</span> ?</h2>
+            <h2 class="header2">Pourquoi <span>imminence</span> ?</h2>
             <p class="paragraphe">
             Nous avons constaté qu’il peut être fastudieux pour vous de faire vos démarches administratives pour devenir entrepreuneur.
             </p>
