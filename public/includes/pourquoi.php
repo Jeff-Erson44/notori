@@ -1,4 +1,4 @@
-<section id="pourquoi" data-scroll-section>
+<section id="pourquoi" >
     <div class="pourquoi__contain">
         <div class="pourquoi__contain--text">
             <h2 class="header2">Pourquoi <span>imminence</span> ?</h2>

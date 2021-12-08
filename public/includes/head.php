@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">   
 
-<!-- CSS Locomotive scroll -->
-    <link rel="stylesheet" href="locomotive-scroll.css">
+<!-- Mailchimp -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
 <!-- CSS Slider -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -44,4 +44,4 @@
     </script>
 </head>
 
-<body data-scroll-container >
+<body >

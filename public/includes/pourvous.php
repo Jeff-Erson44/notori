@@ -1,5 +1,5 @@
 <h2 class="header2">Vous parlez de nous !</h2>
-<section id="pourvous" data-scroll-section>
+<section id="pourvous" >
     <div class="pourvous__container">
         <div class="pourvous__contain--stars">
             <figure class="stars">

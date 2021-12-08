@@ -1,4 +1,4 @@
-<section class="footer__contain" data-scroll-section>
+<section class="footer__contain" >
     <div class="footer__container--logo">
         <figure>
             <img class="logo__footer" src="assets/img/logo-imminence-white.svg" alt="logo imminence noir et blanc">

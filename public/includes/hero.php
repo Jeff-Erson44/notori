@@ -1,4 +1,4 @@
-<section id="home" data-scroll-section>
+<section id="home" >
     <div class="home__container">
         <div class="home__container--top">
             <h1>
