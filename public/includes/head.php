@@ -44,4 +44,4 @@
     </script>
 </head>
 
-<body >
+<body class="smooth-scroll-wrapper">

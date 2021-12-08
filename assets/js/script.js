@@ -85,9 +85,6 @@ containCounter.forEach((contain) => {
 
 
 
-
-
-
     /*********     google analytic Tag   *******/
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

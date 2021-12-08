@@ -141,7 +141,6 @@ h1 span{
     z-index: -10;
 }
 
-
 h1 p{
     margin: 0 0 0 1.9rem;
 }
@@ -431,7 +430,7 @@ h1 p span{
 }
 
 li{
-    margin-left: 4.375rem;
+    margin: 0 4.375rem;
 }
 .contact{
     margin-left: 30rem;
@@ -475,7 +474,7 @@ ul .active:nth-child(4){
         display: block;
     }
     .primary-navigation{
-        position: fixed;
+        position: fixed!important;
         z-index: 1;
         inset: 0 0 0 30%;
         flex-direction: column;

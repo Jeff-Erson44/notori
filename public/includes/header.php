@@ -44,17 +44,6 @@
                     </h4>
                 </div>
             </li>
-            <li class="active">
-                <div>
-                    <h4 class="title">
-                        <a href="">
-                            <div class="bg__links--text">
-                                <span class="nav-links button__secondary">J'entreprends</span>
-                            </div>
-                        </a>
-                    </h4>
-                </div>
-            </li>
             <li class="active navMobile">
                 <div>
                     <h4 class="title">
