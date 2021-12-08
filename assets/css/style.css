@@ -36,6 +36,7 @@
     font-family: 'Nexa-Bold';
     font-size: 2rem;
     padding: 0 100px;
+    color: #202932;
 }
 .header3{
     font-family: 'Poppins';
@@ -68,7 +69,7 @@
 }
 @media (max-width:560px){
     .header2{
-        font-size: 1.25rem;
+        font-size: 2rem;
         padding: 0 20px;
     }
     .header2__apropos{
@@ -325,6 +326,7 @@ h1 p span{
 
 
 /********** A PROPOS ***********/
+
 #apropos{
     padding: 0 100px;
 }
@@ -332,6 +334,11 @@ h1 p span{
 #apropos h2{
     padding: 0;
     margin-bottom: 2.625rem;
+    color: #202932;
+}
+
+#apropos h2 span{
+    color: var(--primary);
 }
 
 .apropos__container{
@@ -340,8 +347,8 @@ h1 p span{
 }
 
 .apropos__container--video{
-    width: 31.6rem;
-    height: 19rem;
+    width: 29.5rem;
+    height: 17.75rem;
     background-color: var(--black);
     border-radius: 10px;
     position: relative;
@@ -360,43 +367,50 @@ h1 p span{
 }
 .apropos__container--text{
     width: 29rem;
-    height: 18rem;
     font-family: 'Poppins';
     font-size: 1.25rem;
 }
-.apropos__container--text p:first-child{
-    margin-top: 80px;
+
+.apropos__paragraphe--second{
+    margin-bottom: 2.5rem;
 }
 
 @media (max-width:560px){
     #apropos{
-        padding: 0;
+        padding: 0 20px;
     }
     #apropos h2{
         margin-bottom: 3rem;
     }
     .apropos__container{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
     }
     .apropos__container--video{
         width: 19rem;
         height: 11rem;
         background-color: var(--black);
         border-radius: 10px;
-        margin: 0 40px;
+        margin: 0 20px;
+        margin-top: 50%;
     }
     .apropos__container--video::before{
         left: -6%;
         top: -10%;
     }
     .apropos__container--text{
-        max-width: 80%;
+        max-width: 100%;
         height: 15rem;
         font-family: 'Poppins';
         font-size: 1.25rem;
-        text-align: left;
-        padding: 0 20px;
-        margin: 0 auto;
+    }
+    .apropos__paragraphe--second{
+        margin-bottom: 2.5rem;
+    }
+    .apropos__container--text button{
+        width: 100%;
     }
 }
 
@@ -539,15 +553,31 @@ ul .active:nth-child(4){
         display: none;
     }
 }
+
 /********** POURQUOI **********/
+
 #pourquoi{
-    padding: 100px 100px 0px 100px;
+    padding: 0px 100px 0px 100px;
 }
 .pourquoi__contain{
     display: flex;
     height: 80vh;
     min-width: 50%;
     margin-top: 0px;
+}
+.pourquoi__contain--text{
+    margin: auto;
+    padding: 0 5%;
+}
+.pourquoi__contain--text h2{
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+.pourquoi__contain--text h2 span{
+    color: var(--primary);
+}
+.pourquoi__contain--text button{
+    margin-top: 2.5rem;
 }
 .pourquoi__contain--image{
     display: flex;
@@ -568,38 +598,16 @@ ul .active:nth-child(4){
     z-index: -1;
     border-radius: 15px;
 }
-.pourquoi__contain--image figure:first-child{
-    margin: -50px 20px 0 0;
-}
-.pourquoi__contain--image figure:last-child{
-    margin-top: 50px;
-}
 
-.pourquoi__contain--text{
-    margin:auto;
-    padding: 0 8%;
-}
-
-.contain__text--highlight{
-    width: 100%;
-    font-size: 1.375rem;
-    margin-bottom: 20px;
-    font-family: 'Poppins';
-}
 
 @media (max-width:560px){
     #pourquoi{
-        padding: 20px;
+        padding: 0 20px;
+        height: fit-content;
+        margin-bottom: 200px;
     }
-    .pourquoi__contain--image figure:last-child{
-        display: none;
-    }
-    .pourquoi__contain--image figure:first-child{
-        margin: 0;
-    }
-    .pourquoi__contain--image{
+    .pourquoi__contain--image img{
         width: 100%;
-        margin-bottom: 30px;
     }
     .pourquoi__contain{
         flex-wrap: wrap;
@@ -611,6 +619,9 @@ ul .active:nth-child(4){
     .pourquoi__contain--text {
         margin: 10px;
         padding: 0;
+    }
+    .pourquoi__contain--text button{
+        width: 100%;
     }
 }
 /********** COUNTER ***********/
