@@ -163,6 +163,7 @@ h1 p span{
     border-radius: 10px;
     font-size: 1.125rem;
     color: var(--white);
+    cursor: pointer;
 }
 
 
@@ -175,6 +176,7 @@ h1 p span{
     position: relative;
     border-radius: 10px;
     z-index: 1;
+    cursor: pointer;
 }
 .button__secondary::before{
     content: "";
@@ -254,11 +256,13 @@ h1 p span{
         margin: 14px auto 6px auto!important;
         border-radius: 10px;
         font-size: 1.125rem;
+        cursor: pointer;
     }
     .button__secondary{
         font-size: 1.125rem;
         margin: 0 auto 50px auto!important;
         width: 217px;
+        cursor: pointer;
     }
     .home__social--links{
         display: flex;
@@ -1097,5 +1101,4 @@ ul .active:nth-child(4){
         border-right: none;
         padding: 10%;
     }
-
 }
