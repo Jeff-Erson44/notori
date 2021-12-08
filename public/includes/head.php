@@ -14,14 +14,24 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">   
 
+<!-- CSS Locomotive scroll -->
+    <link rel="stylesheet" href="locomotive-scroll.css">
+
 <!-- CSS Slider -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
 <!--Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" crossorigin="anonymous"/>
 
+<<<<<<< HEAD
 <!-- Mailchimp -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+=======
+<!--Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+>>>>>>> 9ce02631fee82dee6bed8b1c92b086c00879f669
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JH053D7RZL"></script>
@@ -39,4 +49,4 @@
     </script>
 </head>
 
-<body>
+<body data-scroll-container >

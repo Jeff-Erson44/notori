@@ -1,5 +1,5 @@
 <h2 class="header2">Vous parlez de nous !</h2>
-<section id="pourvous">
+<section id="pourvous" data-scroll-section>
     <div class="pourvous__container">
         <div class="pourvous__contain--stars">
             <figure class="stars">
@@ -157,6 +157,9 @@
                         <figure class="stars">
                             <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
                         </figure>  
+                        <figure class="stars">
+                            <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
+                        </figure>  
                     </div>
 
                     <div class="pourvous__contain--text">
@@ -188,6 +191,9 @@
                         <figure class="stars">
                             <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
                         </figure>
+                        <figure class="stars">
+                            <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
+                        </figure>  
                         <figure class="stars">
                             <img src="assets/img/star_gold.svg" alt="etoile pour décrire la note donner lors de l'avis">
                         </figure>  
