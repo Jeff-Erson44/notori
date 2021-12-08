@@ -63,21 +63,22 @@
 .highlight{
     color: var(--secondary);
 }
+.redHighlight{
+    color: var(--terce);
+}
 @media (max-width:560px){
     .header2{
         font-size: 1.25rem;
+        padding: 0 20px;
     }
     .header2__apropos{
         margin: 0!important;
     }
 }
 
-
-
 a, li{
     text-decoration: none;
 }
-
 
 /********** NAVBAR *********/
 #navbar{
@@ -291,7 +292,7 @@ h1 p span{
 }
 .author, .citation{
     color: white;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
 }
 .citation{
     font-size: 2.25rem;
@@ -361,7 +362,7 @@ h1 p span{
 .apropos__container--text{
     width: 29rem;
     height: 18rem;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
     font-size: 1.25rem;
 }
 .apropos__container--text p:first-child{
@@ -391,12 +392,12 @@ h1 p span{
     }
     .apropos__container--text{
         max-width: 80%;
-        font-family: 'Open Sans';
+        height: 15rem;
+        font-family: 'Poppins';
         font-size: 1.25rem;
         text-align: left;
         padding: 0 20px;
         margin: 0 auto;
-    
     }
 }
 
@@ -584,7 +585,7 @@ ul .active:nth-child(4){
     width: 100%;
     font-size: 1.375rem;
     margin-bottom: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
 }
 
 @media (max-width:560px){
@@ -632,6 +633,7 @@ ul .active:nth-child(4){
     font-size: 3rem;
     font-family: 'Nexa-Bold';
     padding: 0 20px;
+    text-align: center;
 }
 
 @media (max-width:560px){
@@ -731,7 +733,6 @@ ul .active:nth-child(4){
 
 #faq{
     width: 100%;
-    height: 100vh;
 }
 .faq__container{
     display: flex;
@@ -830,7 +831,7 @@ ul .active:nth-child(4){
 #newsletter{
     width: 100%;
     height: 30vh;
-    margin: 8rem 0;
+    margin-bottom: 8rem;
 }
 #newsletter h2{
     font-family: 'Nexa-Bold';
@@ -915,7 +916,7 @@ ul .active:nth-child(4){
 }
 .navigation__link, .social__link{
     width: 50%;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
     text-decoration: none;
 }
 .navigation__link a, .social__link a{
@@ -978,13 +979,16 @@ ul .active:nth-child(4){
 
     .navigation__link, .social__link{
         width: 100%;
-        font-family: 'Open Sans';
+        font-family: 'Poppins';
         text-decoration: none;
     }
 
     .footer__container--logo,.footer__container--adress{
         width: 100%;
         border-top: 2px solid var(--white);
+    }
+        .footer__container--adress{
+        border-bottom: 2px solid var(--white);
     }
     .footer__container--navigation, .footer__container--social{
         display: block;
