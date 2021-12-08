@@ -1,4 +1,4 @@
-<div class="footer__contain">
+<section class="footer__contain" data-scroll-section>
     <div class="footer__container--logo">
         <figure>
             <img class="logo__footer" src="assets/img/logo-imminence-white.svg" alt="logo imminence noir et blanc">
@@ -31,7 +31,7 @@
         <h4 class="footer__container--title header4">Contact</h4>
             <a class="mail__text" href="mailto=contact@imminence.com">contact@imminence.com</a>
     </div>
-</div>
+</section>
 <div class="copyright__contain">
     <span class="header5 txt t1">©Notori 2021 | Mentions Légales &nbsp;</span>
     <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>

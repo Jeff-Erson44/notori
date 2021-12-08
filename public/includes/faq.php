@@ -1,5 +1,5 @@
 <h2 class="faq__title">F.A.Q : <br class="faq__title--break">Comment <span>imminence</span> vous <span>aide</span> ?</h2>
-<section id="faq">
+<section id="faq" data-scroll-section>
     <div class="faq__container">
         <div class="faq__container--card">
             <div class="faq__card">

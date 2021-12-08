@@ -1,4 +1,4 @@
-<section>
+<section data-scroll-section>
     <div class="counter__container">
         <div id="scopeCounter" class="counter__container--text" data-observe>
             <p class="counter" data-target="0667"></p>

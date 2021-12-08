@@ -1,4 +1,4 @@
-<section id="citation">
+<section id="citation" data-scroll-section>
     <div class="citation__container">
         <div class="citation__contain">
                 <p class="citation">“Deviens ce que tu es. Fais ce que <span class="highlight">toi seul</span> peut faire.”</p>

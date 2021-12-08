@@ -1,4 +1,4 @@
-<section id="apropos">
+<section id="apropos" data-scroll-section>
     <div class="apropos__container">
         <div class="apropos__container--video">
 

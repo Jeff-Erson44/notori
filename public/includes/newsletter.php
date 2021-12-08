@@ -1,4 +1,4 @@
-<div id="newsletter">
+<section id="newsletter" data-scroll-section>
     <div class="newsletter__container">
         <div class="newsletter__container--title">
             <h2>Newsletter</h2>
@@ -11,4 +11,4 @@
             </form>
         </div>
     </div>
-</div>
+</section>
