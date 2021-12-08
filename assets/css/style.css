@@ -4,12 +4,16 @@
 
     --primary : #1A2A80;
     --secondary : #26CECD;
+    --terce : #ED4465;
+
+    --footer : #202932;
+    --grey : #E3E8ED
 }
 
 
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 @font-face{
     font-family: "Nexa-Bold";
     src: url("../webfonts/nexa_bold-webfont.woff") format("woff"),
@@ -24,23 +28,32 @@
 }
 
 /***********   ECHELLE TYPO ************/
-
+.header1{
+    font-family: 'Nexa-Bold';
+    font-size: 6rem;
+}
 .header2{
     font-family: 'Nexa-Bold';
     font-size: 2rem;
     padding: 0 100px;
 }
+.header3{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: normal;
+}
 .header4{
-    font-family: 'Poppins-Semi-Bold';
+    font-family: 'Poppins';
     font-size: 1rem;
+    font-weight:600;
 }
 .header5{
     font-family: 'Poppins';
     font-size: 0.8rem;
+    font-weight:400 ;
 }
-
 .paragraphe{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -50,21 +63,22 @@
 .highlight{
     color: var(--secondary);
 }
+.redHighlight{
+    color: var(--terce);
+}
 @media (max-width:560px){
     .header2{
         font-size: 1.25rem;
+        padding: 0 20px;
     }
     .header2__apropos{
         margin: 0!important;
     }
 }
 
-
-
 a, li{
     text-decoration: none;
 }
-
 
 /********** NAVBAR *********/
 #navbar{
@@ -277,7 +291,7 @@ h1 p span{
 }
 .author, .citation{
     color: white;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
 }
 .citation{
     font-size: 2.25rem;
@@ -294,7 +308,7 @@ h1 p span{
 
     #citation{
         margin: 0 0 80px 0;
-        padding: 0;
+        padding: 0 20px;
     }
     .citation__contain{
         background-image: url("../img/citation-mobile.png");
@@ -337,7 +351,7 @@ h1 p span{
     display: block;
     position: absolute;
     left: -6%;
-    top: -15%;
+    top: -10%;
     height: inherit;
     width: inherit;
     border: 2px solid var(--secondary);
@@ -347,7 +361,7 @@ h1 p span{
 .apropos__container--text{
     width: 29rem;
     height: 18rem;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
     font-size: 1.25rem;
 }
 .apropos__container--text p:first-child{
@@ -358,25 +372,31 @@ h1 p span{
     #apropos{
         padding: 0;
     }
+    #apropos h2{
+        margin-bottom: 3rem;
+    }
     .apropos__container{
         display: block;
     }
     .apropos__container--video{
-        width: 90%;
+        width: 19rem;
+        height: 11rem;
         background-color: var(--black);
         border-radius: 10px;
-        margin: 0 auto;
+        margin: 0 40px;
     }
     .apropos__container--video::before{
-        left: -3%;
-        top: -9%;
+        left: -6%;
+        top: -10%;
     }
     .apropos__container--text{
-        width: 100%;
-        font-family: 'Open Sans';
+        max-width: 80%;
+        height: 15rem;
+        font-family: 'Poppins';
         font-size: 1.25rem;
         text-align: left;
-    
+        padding: 0 20px;
+        margin: 0 auto;
     }
 }
 
@@ -471,7 +491,8 @@ ul .active:nth-child(4){
     }
 
     .logo{
-        width: 100px;
+        width: 20%;
+        left:0
     }
 
     .mobile__nav--toggle{
@@ -563,7 +584,7 @@ ul .active:nth-child(4){
     width: 100%;
     font-size: 1.375rem;
     margin-bottom: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
 }
 
 @media (max-width:560px){
@@ -611,6 +632,7 @@ ul .active:nth-child(4){
     font-size: 3rem;
     font-family: 'Nexa-Bold';
     padding: 0 20px;
+    text-align: center;
 }
 
 @media (max-width:560px){
@@ -635,7 +657,7 @@ ul .active:nth-child(4){
 /********** POUR VOUS ***********/
 
 #pourvous{
-    padding: 50px 100px;
+    padding: 100px;
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -676,7 +698,7 @@ ul .active:nth-child(4){
 @media (max-width : 560px){
     #pourvous__mobile{
         display: block;
-        padding: 0 10px;
+        padding: 0 25px;
     }
     #pourvous{
         display: none;
@@ -699,7 +721,6 @@ ul .active:nth-child(4){
 
 #faq{
     width: 100%;
-    height: 100vh;
 }
 .faq__container{
     display: flex;
@@ -800,7 +821,7 @@ ul .active:nth-child(4){
 #newsletter{
     width: 100%;
     height: 30vh;
-    margin: 8rem 0;
+    margin-bottom: 8rem;
 }
 #newsletter h2{
     font-family: 'Nexa-Bold';
@@ -808,7 +829,7 @@ ul .active:nth-child(4){
     margin-bottom: 2.5rem;
 }
 .newsletter__container--title{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     color:#202932;
 
@@ -858,8 +879,8 @@ ul .active:nth-child(4){
 	width: 100%;
 	height: 20rem;
     display: flex;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
 }
 .footer__container--logo{   
     width: 35%;
@@ -876,29 +897,29 @@ ul .active:nth-child(4){
     padding: 0px 80px;
     text-align: center;
     line-height: 21px;
-    color: white;
+    color: var(--white);
 }
 .footer__container--navigation, .footer__container--social{
     width: 20%;
     padding:4%;
 }
 .footer__container--navigation, .footer__container--social, .footer__container--logo{
-    border-right: 2px solid white;
+    border-right: 2px solid var(--white);
 }
 .navigation__link, .social__link{
     width: 50%;
-    font-family: 'Open Sans';
+    font-family: 'Poppins';
     text-decoration: none;
 }
 .navigation__link a, .social__link a{
-    color: white;
+    color: var(--white);
 }
 .footer__container--title{
     text-transform: uppercase;
-    color: white;
+    color: var(--white);
 }
 .mail__text{
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
 .footer__container--adress{
@@ -906,12 +927,12 @@ ul .active:nth-child(4){
     width: 30%;
 }
 .copyright__contain{
-    background-color: #202932;
+    background-color: var(--footer);
     overflow: hidden;
     width: 100%;
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--white);
     height: 3vh;
     position: relative;
     top: 0;
@@ -950,18 +971,22 @@ ul .active:nth-child(4){
 
     .navigation__link, .social__link{
         width: 100%;
-        font-family: 'Open Sans';
+        font-family: 'Poppins';
         text-decoration: none;
     }
 
     .footer__container--logo,.footer__container--adress{
         width: 100%;
-        border-top: 2px solid white;
+        border-top: 2px solid var(--white);
+    }
+        .footer__container--adress{
+        border-bottom: 2px solid var(--white);
     }
     .footer__container--navigation, .footer__container--social{
         display: block;
         width: 30%;
         padding: 5%;
+        border-top: 2px solid var(--white);
     }
     .footer__container--navigation, .footer__container--social, .footer__container--logo, .footer__container--adress{
         border-right: none;
