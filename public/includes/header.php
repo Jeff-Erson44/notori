@@ -14,7 +14,7 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a href="#apropos">
+                        <a href="#citation">
                             <div class="bg__links--text">
                                 <span class="nav-links">À &nbsp;propos</span>
                             </div>

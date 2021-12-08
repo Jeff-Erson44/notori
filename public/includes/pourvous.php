@@ -22,7 +22,7 @@
 
         <div class="pourvous__contain--infos">
             <figure class="pourvous__infos--image">
-                <img src="assets/img/profil1.png" alt="photo de profil client">
+                <img src="assets/img/profil1.webp" alt="photo de profil client">
             </figure>
             <div class="pourvous__info--profil">
                 <p class="header5">Yves, 43 ans<br>
@@ -57,7 +57,7 @@
 
         <div class="pourvous__contain--infos">
             <figure class="pourvous__infos--image">
-                <img src="assets/img/profil2.png" alt="photo de profil client">
+                <img src="assets/img/profil2.webp" alt="photo de profil client">
             </figure>
             <div class="pourvous__info--profil">
                 <p class="header5">Lina, 22 ans<br>
@@ -92,7 +92,7 @@
 
         <div class="pourvous__contain--infos">
             <figure class="pourvous__infos--image">
-                <img src="assets/img/profil3.png" alt="photo de profil client">
+                <img src="assets/img/profil3.webp" alt="photo de profil client">
             </figure>
             <div class="pourvous__info--profil">
                 <p class="header5">Baptiste, 34 ans<br>
@@ -131,7 +131,7 @@
 
                     <div class="pourvous__contain--infos">
                         <figure class="pourvous__infos--image">
-                            <img src="assets/img/profil1.png" alt="photo de profil client">
+                            <img src="assets/img/profil1.webp" alt="photo de profil client">
                         </figure>
                         <div class="pourvous__info--profil">
                             <p class="header5">Yves, 43 ans<br>
@@ -168,7 +168,7 @@
 
                     <div class="pourvous__contain--infos">
                         <figure class="pourvous__infos--image">
-                            <img src="assets/img/profil2.png" alt="photo de profil client">
+                            <img src="assets/img/profil2.webp" alt="photo de profil client">
                         </figure>
                         <div class="pourvous__info--profil">
                             <p class="header5">Lina, 22 ans<br>
@@ -205,7 +205,7 @@
 
                     <div class="pourvous__contain--infos">
                         <figure class="pourvous__infos--image">
-                            <img src="assets/img/profil3.png" alt="photo de profil client">
+                            <img src="assets/img/profil3.webp" alt="photo de profil client">
                         </figure>
                         <div class="pourvous__info--profil">
                             <p class="header5">Baptiste, 34 ans<br>
