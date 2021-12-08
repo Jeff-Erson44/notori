@@ -82,6 +82,16 @@ containCounter.forEach((contain) => {
 
 
 
+    /*********    Locomotive scroll   *******/
+
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+    });
+
+
+
+
 
     /*********     google analytic Tag   *******/
     window.dataLayer = window.dataLayer || [];
