@@ -1010,10 +1010,15 @@ ul .active:nth-child(4){
 
 #mc_embed_signup_scroll label{
     font-family: 'Nexa-Bold';
-    font-size: 2rem;
+    font-size: 2rem!important;
+    display: flex!important;
 }
-.email{
-    height: 3.125rem;
+#mc_embed_signup form p{
+    font-family: 'Poppins';
+    text-align: left;
+}
+.newsletter__email{
+    height: 3.125rem !important;
     width: 31.75rem;
     border-radius: 10px;
     border: 1px solid #B7B7B7;
@@ -1029,6 +1034,20 @@ ul .active:nth-child(4){
     border-radius: 10px;
     font-size: 1.125rem;
     color: var(--white);
+}
+#newsletter{
+    display: flex;
+    justify-content: left;
+    padding: 0 200px 100px 100px;
+}
+@media (max-width: 560px){
+    #newsletter{
+        padding: 20px!important;
+        display: block!important;
+    }
+    .newsletter__email{
+    width: 90%;
+    }
 }
 
 /********** FOOTER ***********/
