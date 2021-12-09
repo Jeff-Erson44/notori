@@ -15,9 +15,9 @@
         </div>
 
         <div class="hero__social--links">
-            <p class="social__link"><a href="">LinkedIn</a></p>
-            <p class="social__link"><a href="">Facebook</a></p>
-            <p class="social__link"><a href="">Instagram</a></p>
+            <p class="social__link"><a href="https://www.linkedin.com/company/declic1">LinkedIn</a></p>
+            <p class="social__link"><a href="https://www.facebook.com/imminenceentrepreneur">Facebook</a></p>
+            <p class="social__link"><a href=" https://www.instagram.com/imminence.entrepreneur">Instagram</a></p>
         </div>
     </div>
 </section>

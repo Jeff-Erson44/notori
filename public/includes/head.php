@@ -8,7 +8,7 @@
     <meta name="copyright" content="Nōtori©2021" />
     <meta name="robots" content="index"/>
     <meta http-equiv="expires" content="43200"/>
-    <meta name="description" content="Imminence, 9 lettres, notre objectif Aider les futurs entrepreneurs innovants face au processus laborieux que sont les démarches administratives. ">
+    <meta name="description" content="“imminence” est un dispositif créé spécialement pour aider les futurs entrepreneurs innovants, mais aussi les entrepreneurs en général.Si vous souhaitez vous lancer, mais que vous ne savez pas quelles sont les informations qui vous concernent, alors vous venez de trouver ce qu’il vous faut !">
     <title>Imminence</title> 
 
 <!-- CSS -->

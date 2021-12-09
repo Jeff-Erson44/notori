@@ -19,12 +19,14 @@
     src: url("../webfonts/nexa_bold-webfont.woff") format("woff"),
     url("../webfonts/nexa_bold-webfont.woff2") format("woff2");
     font-weight: normal;
+    font-display: swap;
 }
 @font-face{
     font-family: "Nexa-Light";
     src: url("../webfonts/nexa_light-webfont.woff") format("woff"),
     url("../webfonts/nexa_light-webfont.woff2") format("woff2");
     font-weight: normal;
+    font-display: swap;
 }
 
 /***********   ECHELLE TYPO ************/
@@ -468,6 +470,9 @@ h1 p span{
     }
     .apropos__container--text {
         width: 25rem;
+    }
+    .span__container--entreprendre::before {
+        font-size: 8.5rem!important;
     }
 }
 

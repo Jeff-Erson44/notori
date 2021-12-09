@@ -47,7 +47,7 @@
             <li class="active navMobile">
                 <div>
                     <h4 class="title">
-                        <a href="#">
+                        <a href="https://www.facebook.com/imminenceentrepreneur">
                             <div class="bg__links--text">
                                 <span class="nav-links">Facebook</span>
                             </div>
@@ -58,7 +58,7 @@
             <li class="active navMobile">
                 <div>
                     <h4 class="title">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/company/declic1">
                             <div class="bg__links--text">
                                 <span class="nav-links">LinkedIn</span>
                             </div>
@@ -69,7 +69,7 @@
             <li class="active navMobile">
                 <div>
                     <h4 class="title">
-                        <a href="#">
+                        <a href=" https://www.instagram.com/imminence.entrepreneur/">
                             <div class="bg__links--text">
                                 <span class="nav-links">Instagram</span>
                             </div>
