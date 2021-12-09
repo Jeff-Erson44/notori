@@ -12,7 +12,7 @@
         </div>
         <div class="pourquoi__contain--image">
             <figure>
-                <img src="assets/img/pourquoi_illu.png" alt="">
+                <img src="assets/img/pourquoi_illu.webp" alt="">
             </figure>
         </div>
     </div>

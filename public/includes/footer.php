@@ -29,7 +29,7 @@
 
     <div class="footer__container--adress">
         <h4 class="footer__container--title header4">Contact</h4>
-            <a class="mail__text" href="mailto=contact@imminence.com">contact@imminence.com</a>
+            <a class="mail__text" href="mailto=contact-imminence@gmail.com">contact@imminence.com</a>
     </div>
 </section>
 <div class="copyright__contain">

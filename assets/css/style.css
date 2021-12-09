@@ -7,7 +7,7 @@
     --terce : #ED4465;
 
     --footer : #202932;
-    --grey : #E3E8ED
+    --grey : #E3E8ED;
 }
 
 
@@ -141,7 +141,6 @@ h1 span{
     z-index: -10;
 }
 
-
 h1 p{
     margin: 0 0 0 1.9rem;
 }
@@ -164,6 +163,7 @@ h1 p span{
     border-radius: 10px;
     font-size: 1.125rem;
     color: var(--white);
+    cursor: pointer;
 }
 
 
@@ -176,6 +176,7 @@ h1 p span{
     position: relative;
     border-radius: 10px;
     z-index: 1;
+    cursor: pointer;
 }
 .button__secondary::before{
     content: "";
@@ -183,7 +184,7 @@ h1 p span{
     border-radius: calc(10px - 2px);
     height: calc(100% - calc(2px * 2));
     width: calc(100% - calc(2px * 2));
-    background: white;
+    background: var(--white);
     position: absolute;
     top: 2px;
     left: 2px;
@@ -201,7 +202,7 @@ h1 p span{
 }
 
 .home__social--links a{
-    color: #202932!important;
+    color: var(--footer)!important;
 }
 
 /**** HOME MOBILE ****/
@@ -255,11 +256,13 @@ h1 p span{
         margin: 14px auto 6px auto!important;
         border-radius: 10px;
         font-size: 1.125rem;
+        cursor: pointer;
     }
     .button__secondary{
         font-size: 1.125rem;
         margin: 0 auto 50px auto!important;
         width: 217px;
+        cursor: pointer;
     }
     .home__social--links{
         display: flex;
@@ -268,6 +271,15 @@ h1 p span{
         position: static;
         margin: 0 auto 0 auto!important;
         text-align: center;
+    }
+}
+
+@media (max-width:1024px){
+    .span__container--entreprendre::before {
+        font-size: 8rem;
+    }
+    .home__social--links {
+        right: -25%;
     }
 }
 
@@ -280,7 +292,7 @@ h1 p span{
     width: 100%;
 }
 .citation__contain{
-    background-image: url("../img/citation.jpg");
+    background-image: url("../img/citation.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 14rem;
@@ -292,7 +304,7 @@ h1 p span{
     position: relative;
 }
 .author, .citation{
-    color: white;
+    color:var(--white);
     font-family: 'Poppins';
 }
 .citation{
@@ -315,7 +327,7 @@ h1 p span{
         padding: 0 20px;
     }
     .citation__contain{
-        background-image: url("../img/citation.jpg");
+        background-image: url("../img/citation.webp");
         height: 9rem;
         padding: 0 50px;
     }
@@ -418,6 +430,16 @@ h1 p span{
     }
 }
 
+@media(max-width:1024px){
+
+    #apropos{
+        padding: 0 50px;
+    }
+    .apropos__container--text {
+        width: 25rem;
+    }
+}
+
 /********** NAVBAR ***********/
 #navbar.sticky{
     background:var(--white);
@@ -431,7 +453,7 @@ h1 p span{
 }
 
 li{
-    margin-left: 4.375rem;
+    margin: 0 4.375rem;
 }
 .contact{
     margin-left: 30rem;
@@ -475,7 +497,7 @@ ul .active:nth-child(4){
         display: block;
     }
     .primary-navigation{
-        position: fixed;
+        position: fixed!important;
         z-index: 1;
         inset: 0 0 0 30%;
         flex-direction: column;
@@ -561,7 +583,7 @@ ul .active:nth-child(4){
 /********** POURQUOI **********/
 
 #pourquoi{
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px;
 }
 .pourquoi__contain{
     display: flex;
@@ -631,6 +653,20 @@ ul .active:nth-child(4){
         margin: 0;
     }
 }
+
+@media (max-width:1024px){
+    #pourquoi{
+        padding: 0 50px;
+    }
+    .pourquoi__contain--text {
+        margin: auto;
+        padding: 0;
+    }
+    .pourquoi__contain--image img{
+        width: 100%;
+        margin-top: 12%;
+    }
+}
 /********** COUNTER ***********/
 
 .counter__container{
@@ -678,7 +714,7 @@ ul .active:nth-child(4){
 @media (max-width:560px){
     .counter__container{
         flex-wrap: wrap;
-        margin: 21.75rem 0 7.375rem 0;
+        margin: 0 0 7.375rem 0;
     }
     .counter__container--text{
         justify-content: center;
@@ -726,7 +762,7 @@ ul .active:nth-child(4){
     width: 18rem;
     padding: 20px 20px 0 20px;
     border-radius: 15px;
-    filter: drop-shadow(0px 4px 7px #E3E8ED);  
+    filter: drop-shadow(0px 4px 7px var(--grey));  
 }
 .pourvous__container:nth-child(1), .pourvous__container:nth-child(2){
     margin-right: 80px;
@@ -773,7 +809,7 @@ ul .active:nth-child(4){
     font-family: 'Nexa-Bold';
     font-size: 2rem;
     padding: 0 100px;
-    color: #202932;
+    color: var(--footer);
     margin-top: 3.125rem;
     margin-bottom: 0px;
 }
@@ -843,13 +879,13 @@ ul .active:nth-child(4){
     border-radius: 15px 15px 0 0;
 }
 .pic-1{
-    background-image: url('../img/faq1.jpg');
+    background-image: url('../img/faq1.webp');
 }
 .pic-2{
-    background-image: url('../img/faq2.jpg');
+    background-image: url('../img/faq2.webp');
 }
 .pic-3{
-    background-image: url('../img/faq3.jpg');
+    background-image: url('../img/faq3.webp');
 }
 .faq__container--text{
     padding: 20px
@@ -911,6 +947,14 @@ ul .active:nth-child(4){
         bottom: 10%;
     }
 }
+@media (max-width:1024px){
+    .faq__background--text{
+        font-size: 10.625rem;
+    }
+    #faq{
+        padding: 0 50px;
+    }
+}
 
 /********** NEWSLETTER *********/
 
@@ -959,7 +1003,7 @@ ul .active:nth-child(4){
     justify-content: center;
 }
 .container__logo--text{
-    padding: 0px 80px;
+    padding: 0px 50px;
     text-align: center;
     line-height: 21px;
     color: var(--white);
@@ -1057,5 +1101,4 @@ ul .active:nth-child(4){
         border-right: none;
         padding: 10%;
     }
-
 }

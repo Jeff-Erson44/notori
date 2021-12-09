@@ -14,7 +14,7 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a href="#apropos">
+                        <a href="#citation">
                             <div class="bg__links--text">
                                 <span class="nav-links">À &nbsp;propos</span>
                             </div>
@@ -39,17 +39,6 @@
                         <a href="#faq">
                             <div class="bg__links--text">
                                 <span class="nav-links">FAQ</span>
-                            </div>
-                        </a>
-                    </h4>
-                </div>
-            </li>
-            <li class="active">
-                <div>
-                    <h4 class="title">
-                        <a href="">
-                            <div class="bg__links--text">
-                                <span class="nav-links button__secondary">J'entreprends</span>
                             </div>
                         </a>
                     </h4>
