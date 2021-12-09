@@ -1244,6 +1244,12 @@ body{
     font-size: 3rem;
     font-family: 'Nexa-Bold';
 }
+.error__text{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: -1rem;
+}
 .error__title::before{
     content: '404';
     font-family: "Nexa-Bold";
@@ -1268,6 +1274,14 @@ body{
         font-size: 8rem;
         left: 15%;
         top: 32%;
+    }
+    .error__container{
+        padding: 10px;
+    }
+    .error__text{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
     }
     .error__btn{
         width: 248px!important;

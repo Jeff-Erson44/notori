@@ -48,6 +48,7 @@
     <div class="pointer2"></div>
     <div class="error__container">
         <h1 class="error__title">Erreur 404</h1>
+        <p class="error__text">Mais que faites-vous ici ? Vous ne devriez pas être là ! Oussst</p>
         <a class="error__btn button__primary" href="index.php">Retour sur la Landing Page imminence</a>
     </div>
 </body>
