@@ -18,9 +18,6 @@
 
 <script src="assets/js/script.js"></script>
 
-<!-- Locomotive scroll JS -->
-<script src="locomotive-scroll.min.js"></script>
-
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
