@@ -82,11 +82,7 @@
 a, li{
     text-decoration: none;
 }
-
-/********** CURSEUR ********/
-body{
-	cursor: none;
-}
+/********** SCROLL TO TOP ********/
 .scrollToTop{
     position: fixed;
     top: 92vh;
@@ -103,7 +99,10 @@ body{
     cursor: pointer;
     z-index: 900;
 }
-
+/********** CURSEUR ********/
+body{
+	cursor: none;
+}
 .pointer {
     position: absolute;
     top: 50%;
