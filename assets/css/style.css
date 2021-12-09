@@ -71,7 +71,7 @@
 }
 @media (max-width:560px){
     .header2{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding: 0 20px;
     }
     .header2__apropos{
@@ -246,13 +246,7 @@ h1 p span{
         font-size: 3rem;
     }
     .span__container--entreprendre::before{
-        content: 'entreprendre';
-        font-family: "Nexa-Bold";
-        font-size: 3.25rem!important;
-        color: #F0F4F9;
-        position: absolute;
-        top: -5.94rem;
-        z-index: -10;
+        display: none;
     }
     h1 p{
         font-family: "Nexa-Light";
@@ -443,7 +437,7 @@ h1 p span{
         border-radius: 10px;
         margin: 0 20px;
         margin-top: 75%;
-        margin-left: 0px;
+        margin-left: -5px;
     }
     .apropos__container--video::before{
         left: -6%;
@@ -486,9 +480,6 @@ h1 p span{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    opacity: 0;
-    transform: translateY(-30px);
-    animation: showup 0.4s 1.6s ease-out forwards;
 }
 
 li{
@@ -691,6 +682,10 @@ ul .active:nth-child(4){
     .pourquoi__contain--image figure{
         margin: 0;
     }
+    .pourquoi__contain--text h2 {
+        padding: 0;
+        margin: 4rem 0 2.5rem 0;
+    }
 }
 
 @media (max-width:1024px){
@@ -836,7 +831,23 @@ ul .active:nth-child(4){
     #pourvous{
         display: none;
     }
+    .swiper-slide.swiper-slide-active {
+        width: 320px!important;
+        margin-right: 20px;
+    }
 
+}
+@media (min-width: 375px) and (max-width:456px){
+    .swiper-slide.swiper-slide-active {
+        width: 320px!important;
+        margin-right: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width:374px){
+    .swiper-slide.swiper-slide-active {
+        width: 320px!important;
+        margin-right: 20px;
+    }
 }
 
 /********** FAQ ***********/
@@ -1085,7 +1096,7 @@ ul .active:nth-child(4){
     position: relative;
     top: 0;
     left: 0;
-    padding: 5px 0;
+    padding: 8px 0;
 }
 .txt {
     margin-right: 110px;
