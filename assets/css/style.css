@@ -272,7 +272,7 @@ h1 p span{
     .button__primary{
         width: 217px;
         height: 45px;
-        margin: 14px auto 6px auto!important;
+        margin: 40px auto!important;
         border-radius: 10px;
         font-size: 1.125rem;
         cursor: pointer;
@@ -436,7 +436,7 @@ h1 p span{
         background-color: var(--black);
         border-radius: 10px;
         margin: 0 20px;
-        margin-top: 75%;
+        margin-top: 70%;
         margin-left: -5px;
     }
     .apropos__container--video::before{
@@ -660,7 +660,7 @@ ul .active:nth-child(4){
     #pourquoi{
         padding: 0 20px;
         height: fit-content;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     .pourquoi__contain--image img{
         width: 100%;
