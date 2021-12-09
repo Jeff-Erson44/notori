@@ -83,6 +83,41 @@ a, li{
     text-decoration: none;
 }
 
+/********** CURSEUR ********/
+body{
+	cursor: none;
+}
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: var(--terce);
+    border: 1px solid var(--terce);
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  
+  .pointer2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--terce);
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+    transition: 0.2s;
+    z-index: 1000;
+  }
 /********** NAVBAR *********/
 #navbar{
     position: fixed;
