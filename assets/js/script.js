@@ -1,8 +1,10 @@
 window.addEventListener('load', () => {
+
     /******************** Curseur ********************/
     document.addEventListener('mousemove', function(e){
-        document.querySelector('.pointer2').style.cssText = document.querySelector('.pointer').style.cssText = "left: " + e.pageX + "px; top:" + e.pageY + "px;";
+    document.querySelector('.pointer2').style.cssText = document.querySelector('.pointer').style.cssText = "left: " + e.pageX + "px; top:" + e.pageY + "px;";
     });
+
     /********************** Responsive navbar *********************/
     document.body.classList.remove("loading-anim");
 
@@ -84,29 +86,16 @@ containCounter.forEach((contain) => {
     });
 
 
-    /*********     Scroll      ******
-    const body = document.body,
-    scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0],
-    height = scrollWrap.getBoundingClientRect().height - 1,
-    speed = 0.05;
+    /*********     ScrollTo top      ******/
 
-    var offset = 0;
-
-    body.style.height = Math.floor(height) + "px";
-
-    function smoothScroll() {
-        offset += (window.pageYOffset - offset) * speed;
-
-    var scroll = "translateY(-" + offset + "px) translateZ(0)";
-        scrollWrap.style.transform = scroll;
-
-    callScroll = requestAnimationFrame(smoothScroll);
-    }
-
-    smoothScroll();
-
-*/
-
+    const links = document.querySelectorAll(".scroll_to");
+    console.log(links)
+    links.forEach((item) =>{
+        item.addEventListener("click", ()=>{
+            const el = document.getElementById(item.getAttribute("data-link"));
+            el.scrollIntoView({behavior:"smooth", block:"start"})
+        })
+    })
 
 
     /*********     google analytic Tag   *******/
@@ -116,35 +105,19 @@ containCounter.forEach((contain) => {
 
     gtag('config', 'G-JH053D7RZL');
 
-}); 
-
-
-    /*********     Scroll To Anim   *******/
-
-    $(document).ready(function() {
-        $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-            var page = $(this).attr('href'); // Page cible
-            var speed = 750; // Durée de l'animation (en ms)
-            $('html, body').animate({
-                scrollTop: $(page).offset().top
-            }, speed); // Go
-            return false;
-        });
-    });
-
 
 
 /*********     AXEPTIO  *******/
+window.axeptioSettings = {
+    clientId: "61a25d09df10d77dd30a4e2a",
+    };
 
-window.axeptioSettings = {
-  clientId: "61a25d09df10d77dd30a4e2a",
-};
- 
-(function(d, s) {
-  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-  e.async = true; e.src = "//static.axept.io/sdk.js";
-  t.parentNode.insertBefore(e, t);
-})(document, "script");
+    (function(d, s) {
+        var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+        e.async = true; e.src = "//static.axept.io/sdk.js";
+        t.parentNode.insertBefore(e, t);
+    })(document, "script");
 
 
-//fin du load
+
+}); //fin du load

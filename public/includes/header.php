@@ -16,7 +16,7 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a href="#citation">
+                        <a data-link="citation" class="scroll_to">
                             <div class="bg__links--text">
                                 <span class="nav-links">À &nbsp;propos</span>
                             </div>
@@ -27,7 +27,7 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a href="#pourvous">
+                        <a data-link="pourvous" class="scroll_to" >
                             <div class="bg__links--text">
                                 <span class="nav-links">Pour Vous</span>
                             </div>
@@ -38,7 +38,7 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a href="#faq">
+                        <a data-link="faq" class="scroll_to">
                             <div class="bg__links--text">
                                 <span class="nav-links">FAQ</span>
                             </div>
