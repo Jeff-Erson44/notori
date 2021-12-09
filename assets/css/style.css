@@ -87,6 +87,22 @@ a, li{
 body{
 	cursor: none;
 }
+.scrollToTop{
+    position: fixed;
+    top: 92vh;
+    font-size: 1.5rem;
+    height: 50px;
+    right: 2%;
+    width: 50px;
+    background-color: black;
+    border-radius: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 900;
+}
 
 .pointer {
     position: absolute;
