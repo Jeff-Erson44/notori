@@ -17,7 +17,7 @@
             <li class="active">
                 <div>
                     <h4 class="title">
-                        <a data-link="citation" class="scroll_to">
+                        <a data-link="apropos" class="scroll_to">
                             <div class="bg__links--text">
                                 <span class="nav-links">À &nbsp;propos</span>
                             </div>
