@@ -1,3 +1,5 @@
+<div class="pointer"></div>
+<div class="pointer2"></div>
 <header>
     <nav id="navbar">
         <div>

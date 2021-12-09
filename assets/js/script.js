@@ -1,5 +1,8 @@
 window.addEventListener('load', () => {
-
+    /******************** Curseur ********************/
+    document.addEventListener('mousemove', function(e){
+        document.querySelector('.pointer2').style.cssText = document.querySelector('.pointer').style.cssText = "left: " + e.pageX + "px; top:" + e.pageY + "px;";
+    });
     /********************** Responsive navbar *********************/
     document.body.classList.remove("loading-anim");
 
