@@ -133,7 +133,7 @@ h1 span{
 .span__container--entreprendre::before{
     content: 'entreprendre';
     font-family: "Nexa-Bold";
-    font-size: 12rem;
+    font-size: 12rem!important;
     line-height: 12rem;
     color: #F0F4F9;
     position: absolute;
@@ -223,7 +223,7 @@ h1 p span{
     .span__container--entreprendre::before{
         content: 'entreprendre';
         font-family: "Nexa-Bold";
-        font-size: 3.25rem;
+        font-size: 3.25rem!important;
         color: #F0F4F9;
         position: absolute;
         top: -5.94rem;
@@ -257,12 +257,18 @@ h1 p span{
         border-radius: 10px;
         font-size: 1.125rem;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .button__secondary{
         font-size: 1.125rem;
         margin: 0 auto 50px auto!important;
         width: 217px;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .home__social--links{
         display: flex;
@@ -274,9 +280,9 @@ h1 p span{
     }
 }
 
-@media (max-width:1024px){
+@media (min-width:1024px) and (max-width:1350px){
     .span__container--entreprendre::before {
-        font-size: 8rem;
+        font-size: 8rem!important;
     }
     .home__social--links {
         right: -25%;
@@ -404,13 +410,14 @@ h1 p span{
         flex-direction: column-reverse;
 
     }
-    .apropos__container--video{
+    .apropos__container--video {
         width: 19rem;
         height: 11rem;
         background-color: var(--black);
         border-radius: 10px;
         margin: 0 20px;
-        margin-top: 50%;
+        margin-top: 75%;
+        margin-left: 0px;
     }
     .apropos__container--video::before{
         left: -6%;
@@ -501,7 +508,7 @@ ul .active:nth-child(4){
         z-index: 1;
         inset: 0 0 0 30%;
         flex-direction: column;
-        background: rgb(18, 218, 191);
+        background: var(--white);
         transform: translateX(100%);
         transition: transform 400ms ease-out;
         padding: 10rem 0rem;
@@ -726,7 +733,7 @@ ul .active:nth-child(4){
     .counter__container--text::before{
         content: '667';
         font-family: "Nexa-Bold";
-        font-size: 12rem;
+        font-size: 12rem!important;
         line-height: 12rem;
         color: #F0F4F9;
         position: absolute;
@@ -947,7 +954,7 @@ ul .active:nth-child(4){
         bottom: 10%;
     }
 }
-@media (max-width:1024px){
+@media (min-width:1024px) and (max-width:1350px){
     .faq__background--text{
         font-size: 10.625rem;
     }

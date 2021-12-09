@@ -113,4 +113,19 @@ containCounter.forEach((contain) => {
 
     gtag('config', 'G-JH053D7RZL');
 
-}); //fin du load
+}); 
+
+/*********     AXEPTIO  *******/
+
+window.axeptioSettings = {
+  clientId: "61a25d09df10d77dd30a4e2a",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");
+
+
+//fin du load

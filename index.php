@@ -22,4 +22,8 @@
 <script src="locomotive-scroll.min.js"></script>
 
 <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+</body>  

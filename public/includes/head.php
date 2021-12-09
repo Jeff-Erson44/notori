@@ -8,17 +8,18 @@
     <meta name="copyright" content="Nōtori©2021" />
     <meta name="robots" content="index"/>
     <meta http-equiv="expires" content="43200"/>
+    <meta name="description" content="">
     <title>Imminence</title> 
 
 <!-- CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">   
 
+    <!-- CSS Slider -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
 <!-- Mailchimp -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
-<!-- CSS Slider -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
 <!--Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" crossorigin="anonymous"/>
@@ -44,4 +45,4 @@
     </script>
 </head>
 
-<body class="smooth-scroll-wrapper">
+<body>

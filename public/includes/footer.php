@@ -42,5 +42,5 @@
     <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
 </div>
 
-    
+
 
