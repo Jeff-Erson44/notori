@@ -11,9 +11,9 @@ Options -Indexes
 # Redirection page http en https  
 
 <IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTPS} off
-  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 </IfModule>
 
 # parametre par defaut UTF-8 pour les accents et caractères spéciaux 
