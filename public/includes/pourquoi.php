@@ -8,7 +8,7 @@
             <p class="paragraphe">
             Avec notre dispositif, vous allez enfin pouvoir gagner du temps et de l’énergie, et vous pourrez mieux vous consacrer à votre projet.
             </p>
-            <button class="button__primary" type="button">Je découvre Imminence</button>
+            <button class="button__primary" type="button">Je découvre imminence</button>
         </div>
         <div class="pourquoi__contain--image">
             <figure>
