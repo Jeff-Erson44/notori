@@ -101,15 +101,15 @@ a, li{
     }
 }
 
-/********** HOME ***********/
+/********** HERO ***********/
 
-#home{
+#hero{
     max-height: 100vh;
     max-width: 100%;
     padding: 350px 100px 0 100px;
 }
 
-.home__container{
+.hero__container{
     padding-top: 3.125rem;
     position: relative;
 }
@@ -128,8 +128,10 @@ h1 span{
     position: absolute;
     z-index: 2;
     top: 3%;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: showup 0.8s 0.2s ease-out forwards;
 }
-
 .span__container--entreprendre::before{
     content: 'entreprendre';
     font-family: "Nexa-Bold";
@@ -147,9 +149,23 @@ h1 p{
 
 h1 p span{
     color: var(--secondary);
+    opacity: 0;
+    transform: translateX(-60px);
+    animation: showup 0.8s 1.4s ease-out forwards;
 }
 
-.home__container .paragraphe{
+.hero__btn--left{
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: showup 0.8s 0.8s ease-out forwards;
+}
+.hero__btn--right{
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: showup 0.8s 1s ease-out forwards;
+}
+
+.hero__container .paragraphe{
     margin-bottom: 2.5rem;
     margin-top: -1.125rem;
 }
@@ -191,7 +207,7 @@ h1 p span{
     z-index: -1;
 }
 
-.home__social--links{
+.hero__social--links{
     display: flex;
     width: 18rem;
     height: 1.3rem;
@@ -201,14 +217,21 @@ h1 p span{
     top: 55%;
 }
 
-.home__social--links a{
+.hero__social--links a{
     color: var(--footer)!important;
 }
 
-/**** HOME MOBILE ****/
+@keyframes showup{
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/**** hero MOBILE ****/
 
 @media (max-width:560px){
-    #home{
+    #hero{
         max-height: 100vh;
         max-width: 100%;
         padding: 130px 20px 0 20px;
@@ -240,13 +263,13 @@ h1 p span{
         font-size: 3rem;
         margin-left: 3.5rem;
     }
-    .home__container .paragraphe{
+    .hero__container .paragraphe{
         margin-bottom: 4rem;
         margin-top: -2.5rem;
         font-size: 0.875rem;
         width: 95%;
     }
-    .home__container--bottom{
+    .hero__container--bottom{
         display: flex;
         flex-direction: column;
     }
@@ -270,7 +293,7 @@ h1 p span{
         align-items: center;
         justify-content: center;
     }
-    .home__social--links{
+    .hero__social--links{
         display: flex;
         align-items: center;
         transform: none;
@@ -284,10 +307,11 @@ h1 p span{
     .span__container--entreprendre::before {
         font-size: 8rem!important;
     }
-    .home__social--links {
+    .hero__social--links {
         right: -25%;
     }
 }
+
 
 /********** CITATION ***********/
 #citation{
@@ -457,6 +481,9 @@ h1 p span{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: showup 0.4s 1.6s ease-out forwards;
 }
 
 li{
