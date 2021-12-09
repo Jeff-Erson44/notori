@@ -141,7 +141,7 @@ body{
 /********** HERO ***********/
 
 #hero{
-    max-height: 100vh;
+    min-height: 45vh;
     max-width: 100%;
     padding: 350px 100px 0 100px;
 }
