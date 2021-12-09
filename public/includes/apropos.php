@@ -1,4 +1,4 @@
-<section id="apropos" >
+<section class="js-scrollTo" id="apropos" >
     <div class="apropos__container">
         <div class="apropos__container--video">
 
