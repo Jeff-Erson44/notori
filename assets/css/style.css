@@ -1172,6 +1172,7 @@ ul .active:nth-child(4){
     white-space: nowrap;
     font-size: 1rem;
     animation: scrollTxt 20s linear infinite alternate;
+    color: var(--white)!important;
 }
 
 @keyframes scrollTxt {
