@@ -15,16 +15,13 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">   
 
-<<<<<<< HEAD
     <!-- CSS Slider -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-=======
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
->>>>>>> 7be3650f2769084583d6ba08ae449e16228ca05c
 
 <!-- Mailchimp -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
