@@ -2,15 +2,15 @@ window.addEventListener('load', () => {
 
     /******************** Curseur ********************/
     document.addEventListener('mousemove', function(e){
-    document.querySelector('.pointer2').style.cssText = document.querySelector('.pointer').style.cssText = "left: " + e.pageX + "px; top:" + e.pageY + "px;";
+    document.querySelector('.pointer2').style.cssText = document.querySelector('.pointer').style.cssText = "left: " + e.pageX + "px; top:" + e.pageY + "px;"; //détermine la position exacte du curseur
     });
     /**************** Scroll bar de progression *******************/
         window.addEventListener("scroll", () => {
-            let hauteur = document.documentElement.scrollHeight - window.innerHeight;
+            let hauteur = document.documentElement.scrollHeight - window.innerHeight; //détermine la hauteur de la page
             let position = window.scrollY;
             let largeur = document.documentElement.clientWidth;
     
-            let bar = (position / hauteur) * largeur;
+            let bar = (position / hauteur) * largeur; //calcule la hauteur et largeur
             document.getElementById("bar").style.width = bar + "px";
         });
     /********************** Responsive navbar *********************/
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
     /*********     Animation Navbar  *******/
     window.addEventListener( "scroll", () => {
         var header = document.getElementById('navbar');
-        header.classList.toggle('sticky', window.scrollY > 50)
+        header.classList.toggle('sticky', window.scrollY > 50) //on rajoute une classe au header .toggle qui actionne la sticky navbar lorsqu'on atteint un endroit précis avec le scroll
     });
 
     /***************** Animation Toggle FAQ *****************/
@@ -54,7 +54,7 @@ const launch = (id)=>{
     console.log(id)
     const counters = document.querySelector(`#${id}`);
     const counter = document.querySelector('.counter');
-    counter.innerText = '0';
+    counter.innerText = '0'; //on reset le num à 0
 
     const updateCounter = () =>{
         const target = +counter.getAttribute('data-target');
@@ -98,7 +98,7 @@ containCounter.forEach((contain) => {
 
     const links = document.querySelectorAll(".scroll_to");
     console.log(links)
-    links.forEach((item) =>{
+    links.forEach((item) =>{ //pour chaque lien, lorsqu'on clique dessus, on va chercher l'attribut data-link et on lui donne un comportement de smooth scroll
         item.addEventListener("click", ()=>{
             const el = document.getElementById(item.getAttribute("data-link"));
             el.scrollIntoView({behavior:"smooth", block:"center"})
