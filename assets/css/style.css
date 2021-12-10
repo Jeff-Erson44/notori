@@ -88,7 +88,7 @@ a, li{
     width: 100%;
     border-radius: 0px 50px 50px 0px;
     position: fixed;
-    bottom: 0;
+    top: 0;
     background-color: var(--secondary);
     z-index: 2000;
 }
@@ -461,6 +461,10 @@ h1 p span{
     border-radius: 10px;
     position: relative;
 }
+.video{
+    border-radius: 10px;
+}
+
 .apropos__container--video::before{
     content: '';
     display: block;
@@ -495,7 +499,6 @@ h1 p span{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
-
     }
     .apropos__container--video {
         width: 19rem;
@@ -505,6 +508,10 @@ h1 p span{
         margin: 0 20px;
         margin-top: 70%;
         margin-left: -5px;
+    }
+    .video{
+        width: 308px;
+        height: 180px;
     }
     .apropos__container--video::before{
         left: -6%;
