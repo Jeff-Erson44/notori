@@ -916,7 +916,7 @@ ul .active:nth-child(4){
 @media (max-width : 560px){
     #pourvous__mobile{
         display: block;
-        padding: 0 25px;
+        padding: 0;
     }
     #pourvous{
         display: none;
