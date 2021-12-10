@@ -1241,7 +1241,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.error__title{
+.error__title, .error__title2{
     font-size: 3rem;
     font-family: 'Nexa-Bold';
 }
@@ -1253,6 +1253,16 @@ body{
 }
 .error__title::before{
     content: '404';
+    font-family: "Nexa-Bold";
+    font-size: 20rem;
+    line-height: 12rem;
+    color: #F0F4F9;
+    position: absolute;
+    left: 30%;
+    z-index: -1;
+}
+.error__title2::before{
+    content: '403';
     font-family: "Nexa-Bold";
     font-size: 20rem;
     line-height: 12rem;
