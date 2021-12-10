@@ -1,3 +1,4 @@
+<div id="bar"></div>
 <div class="pointer"></div>
 <div class="pointer2"></div>
 <a data-link="hero" class="scroll_to scrollToTop"><i class="fas fa-arrow-up"></i></a>
