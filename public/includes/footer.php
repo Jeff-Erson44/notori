@@ -10,10 +10,10 @@
     <div class="footer__container--navigation">
         <h4 class="footer__container--title header4">navigation</h4>
         <div class="footer__navigation--link">
-            <p class="navigation__link"><a href="">Accueil</a></p>
-            <p class="navigation__link"><a href="">À propos</a></p>
-            <p class="navigation__link"><a href="">Pour vous</a></a></p>
-            <p class="navigation__link"><a href="">FAQ</a></p>
+            <p class="navigation__link"><a data-link="hero" class="scroll_to">Accueil</a></p>
+            <p class="navigation__link"><a data-link="apropos" class="scroll_to">À propos</a></p>
+            <p class="navigation__link"><a data-link="pourvous" class="scroll_to">Pour vous</a></a></p>
+            <p class="navigation__link"><a data-link="faq" class="scroll_to">FAQ</a></p>
         </div>
         
     </div>
@@ -21,9 +21,9 @@
     <div class="footer__container--social">
         <h4 class="footer__container--title header4">social</h4>
         <div class="footer__social--link">
-            <p class="social__link"><a href="">LinkedIn</p></a>
-            <p class="social__link"><a href="">Facebook</p></a>
-            <p class="social__link"><a href="">Instagram</p></a>
+            <p class="social__link"><a target="_blank" href="https://www.linkedin.com/company/declic1">LinkedIn</p></a>
+            <p class="social__link"><a target="_blank" href="https://www.facebook.com/imminenceentrepreneur">Facebook</p></a>
+            <p class="social__link"><a target="_blank" href="https://www.instagram.com/imminence.entrepreneur/">Instagram</p></a>
         </div>
     </div>
 
@@ -33,13 +33,13 @@
     </div>
 </section>
 <div class="copyright__contain">
-    <span class="header5 txt t1">©Notori 2021 | Mentions Légales &nbsp;</span>
-    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
-    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
-    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
-    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
-    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
-    <span class="header5 txt t2">©Notori 2021 | Mentions Légales &nbsp;</span>
+    <span class="header5 txt t1"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
+    <span class="header5 txt t2"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
+    <span class="header5 txt t2"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
+    <span class="header5 txt t2"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
+    <span class="header5 txt t2"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
+    <span class="header5 txt t2"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
+    <span class="header5 txt t2"> <a class="txt "target="_blank" href="mentions.php">©Notori 2021 | Mentions Légales &nbsp;</a></span>
 </div>
 
 
