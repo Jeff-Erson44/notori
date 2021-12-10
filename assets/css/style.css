@@ -82,6 +82,16 @@
 a, li{
     text-decoration: none;
 }
+/********** SCROLL BAR DE PROGRESSION ********/
+#bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 0px 50px 50px 0px;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--secondary);
+    z-index: 2000;
+}
 /********** SCROLL TO TOP ********/
 .scrollToTop{
     position: fixed;
@@ -102,6 +112,7 @@ a, li{
 /********** CURSEUR ********/
 body{
 	cursor: none;
+    height: 100%;
 }
 .pointer {
     position: absolute;

@@ -4,6 +4,15 @@ window.addEventListener('load', () => {
     document.addEventListener('mousemove', function(e){
     document.querySelector('.pointer2').style.cssText = document.querySelector('.pointer').style.cssText = "left: " + e.pageX + "px; top:" + e.pageY + "px;";
     });
+    /**************** Scroll bar de progression *******************/
+        window.addEventListener("scroll", () => {
+            let hauteur = document.documentElement.scrollHeight - window.innerHeight;
+            let position = window.scrollY;
+            let largeur = document.documentElement.clientWidth;
+    
+            let bar = (position / hauteur) * largeur;
+            document.getElementById("bar").style.width = bar + "px";
+        });
     /********************** Responsive navbar *********************/
     document.body.classList.remove("loading-anim");
 
