@@ -396,6 +396,20 @@ h1 p span{
     justify-content: center;
     position: relative;
 }
+.citation__contain::after{
+    content: '';
+    display: block;
+    width: 100%; /* toute la taille de son parent*/
+    height: 100%;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    background: var(--black);
+    opacity: 0.6;
+    z-index: 1;
+    transition: all O.4s linear;
+}
 .author, .citation{
     color:var(--white);
     font-family: 'Poppins';
@@ -404,6 +418,7 @@ h1 p span{
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
+    z-index: 10;
 }
 .author{
     font-size: 1rem;
@@ -411,6 +426,7 @@ h1 p span{
     position: absolute;
     right: 5%;
     bottom: 8%;
+    z-index: 10;
 }
 
 @media (max-width:560px){
