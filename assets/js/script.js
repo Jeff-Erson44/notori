@@ -127,5 +127,4 @@ window.axeptioSettings = {
     })(document, "script");
 
 
-
 }); //fin du load
